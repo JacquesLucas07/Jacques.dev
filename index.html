@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacques.dev - Portfolio</title>
+    <link rel="stylesheet" href="src/style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header avec navigation -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Jacques<span>.dev</span></h1>
+            </div>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about" data-translate="nav.about">À propos</a></li>
+                <li><a href="#skills" data-translate="nav.skills">Compétences</a></li>
+                <li><a href="#experience" data-translate="nav.experience">Expérience</a></li>
+                <li><a href="#projects" data-translate="nav.projects">Projets</a></li>
+                <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
+            </ul>
+            
+            <div class="nav-controls">
+                <!-- Bouton mode sombre -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                
+                <!-- Sélecteur de langue -->
+                <div class="lang-selector">
+                    <button class="lang-toggle" id="langToggle" aria-label="Change language">
+                        <i class="fas fa-globe"></i>
+                        <span id="currentLang">FR</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="lang-menu" id="langMenu">
+                        <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+                        <button class="lang-option" data-lang="en">🇬🇧 English</button>
+                        <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+                        <button class="lang-option" data-lang="ru">🇷🇺 Русский</button>
+                    </div>
+                </div>
+                </button>
+                
+                <!-- Menu burger -->
+                <button class="burger-menu" id="burgerMenu" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Présentation -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 data-translate="about.title">À propos de moi</h2>
+                    <h3 data-translate="about.subtitle">Développeur passionné</h3>
+                    <p data-translate="about.description">
+                        Développeur passionné par l'informatique et les technologies numériques, je m'intéresse autant à la programmation qu'à la compréhension des systèmes qui la sous-tendent.
+                        Curieux et rigoureux, j'aime concevoir des projets concrets, apprendre de nouvelles technologies et optimiser mes solutions.
+                        Mon objectif est de continuer à progresser techniquement tout en développant une vision solide et réfléchie du développement logiciel.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/JacquesLucas07" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/lucas-jacques-76226434a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 data-translate="skills.title">Mes Compétences</h2>
+            
+            <div class="skills-content">
+                <!-- Compétences actuelles -->
+                <div class="skills-category">
+                    <h3 data-translate="skills.current">Compétences Actuelles</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card"> <!-- Javascript -->
+                            <img src="asset/logos/javascript.svg" alt="JavaScript" class="skill-icon">
+                            <h4>JavaScript</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card"> <!-- Python -->
+                            <img src="asset/logos/python.svg" alt="Python" class="skill-icon">
+                            <h4>Python</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card"> <!-- Rust -->
+                            <img src="asset/logos/rust.svg" alt="Rust" class="skill-icon">
+                            <h4>Rust</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div> 
+                        <div class="skill-card"> <!-- React -->
+                            <img src="asset/logos/react.svg" alt="React" class="skill-icon">
+                            <h4>React</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card"> <!-- CSS3 -->
+                            <img src="asset/logos/css3.svg" alt="CSS3" class="skill-icon">
+                            <h4>CSS3</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card"> <!-- Git -->
+                            <img src="asset/logos/git.svg" alt="Git" class="skill-icon">
+                            <h4>Git</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card"> <!-- Anglais -->
+                            <img src="asset/logos/language.svg" alt="Language" class="skill-icon">
+                            <h4>Anglais (B2)</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card"> <!-- Russe -->
+                            <img src="asset/logos/language.svg" alt="Language" class="skill-icon">
+                            <h4>Russe (A2)</h4>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stack en apprentissage -->
+                <div class="skills-category">
+                    <h3 data-translate="skills.learning">Stack en Apprentissage</h3>
+                    <div class="learning-stack">
+                        <div class="stack-item"> <!-- Vue.js -->
+                            <img src="asset/logos/vuejs.svg" alt="Vue.js" class="stack-icon">
+                            <span>Vue.js</span>
+                        </div>
+                        <div class="stack-item"> <!-- C++ -->
+                            <img src="asset/logos/cpp.svg" alt="C++" class="stack-icon">
+                            <span>C++</span>
+                        </div>
+                        <div class="stack-item"> <!-- Java -->
+                            <img src="asset/logos/java.svg" alt="Java" class="stack-icon">
+                            <span>Java</span>
+                        </div>
+                        <div class="stack-item"> <!-- Docker -->
+                            <img src="asset/logos/docker.svg" alt="Docker" class="stack-icon">
+                            <span>Docker</span>
+                        </div>
+                        <div class="stack-item"> <!-- TypeScript -->
+                            <img src="asset/logos/typescript.svg" alt="TypeScript" class="stack-icon">
+                            <span>TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Expérience & Éducation -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 data-translate="experience.title">Expérience & Éducation</h2>
+            
+            <div class="timeline">
+                <!-- Éducation -->
+                <div class="timeline-item education">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 - 2028</span>
+                        <h3 data-translate="experience.edu1.title">BUT Informatique</h3>
+                        <h4 data-translate="experience.edu1.school">URCA - Université de Reims Champagne-Ardenne</h4>
+                        <p data-translate="experience.edu1.description">
+                            Formation en 3 ans en développement informatique. 
+                            Apprentissage des technologies modernes, gestion de projet et développement d'applications.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Expériences -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Janvier 2026 - Présent</span>
+                        <h3 data-translate="experience.job1.title">Développeur Informatique</h3>
+                        <h4 data-translate="experience.job1.company">Micro-entreprise</h4>
+                        <p data-translate="experience.job1.description">
+                            Création de ma micro-entreprise de développement informatique. 
+                            Développement de sites web, applications et solutions sur mesure pour les clients.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item education">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h3 data-translate="experience.edu2.title">Baccalauréat Général avec Mention</h3>
+                        <h4 data-translate="experience.edu2.school">Spécialités NSI et Mathématiques</h4>
+                        <p data-translate="experience.edu2.description">
+                            Obtention du baccalauréat général avec mention. 
+                            Spécialités Numérique et Sciences Informatiques (NSI) et Mathématiques.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 data-translate="projects.title">Mes Projets</h2>
+            <p class="projects-subtitle" data-translate="projects.subtitle">
+                Pour plus d'informations, n'hésitez pas à consulter mon 
+                <a href="https://github.com/JacquesLucas07" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-translate="projects.project1.title">GainzTracker</h3>
+                        <p data-translate="projects.project1.description">
+                            Application de gestion de macronutriments pour suivre son alimentation et atteindre ses objectifs fitness.
+                            Développée en collaboration avec Jules Thiefain.
+                        </p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>React</span>
+                            <span>API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/JacquesLucas07" target="_blank" rel="noopener noreferrer" data-translate="projects.viewCode">Voir le code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-puzzle-piece"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-translate="projects.project2.title">BetterIutRcc</h3>
+                        <p data-translate="projects.project2.description">
+                            Extension pour améliorer l'interface de l'intranet de l'URCA. 
+                            Ajout de fonctionnalités et amélioration de l'expérience utilisateur pour les étudiants.
+                        </p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                            <span>Extension</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/JacquesLucas07" target="_blank" rel="noopener noreferrer" data-translate="projects.viewCode">Voir le code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-translate="projects.project3.title">Portfolio Mannequinat</h3>
+                        <p data-translate="projects.project3.description">
+                            Site portfolio professionnel pour un mannequin. 
+                            Design élégant et moderne mettant en valeur le book photo et les collaborations.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/JacquesLucas07" target="_blank" rel="noopener noreferrer" data-translate="projects.viewCode">Voir le code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 data-translate="contact.title">Me Contacter</h2>
+            <p class="contact-subtitle" data-translate="contact.subtitle">
+                N'hésitez pas à me contacter pour discuter de vos projets ou opportunités
+            </p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4 data-translate="contact.email">Email</h4>
+                            <a href="mailto:contact@jacques.dev">jacqueslucas.m2101@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4 data-translate="contact.phone">Téléphone</h4>
+                            <a href="tel:+33612461843">+33 6 12 46 18 43</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-translate="contact.location">Localisation</h4>
+                            <p>Reims, France</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" data-translate-placeholder="contact.form.name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" data-translate-placeholder="contact.form.email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Sujet" data-translate-placeholder="contact.form.subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Votre message" data-translate-placeholder="contact.form.message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn" data-translate="contact.form.submit">
+                        Envoyer le message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jacques.dev. <span data-translate="footer.rights">Tous droits réservés.</span></p>
+        </div>
+    </footer>
+
+    <script src="src/script/First.js"></script>
+</body>
+</html>
