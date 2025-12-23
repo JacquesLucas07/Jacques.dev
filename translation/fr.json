@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "subtitle": "Développeur passionné",
+    "description": "Développeur passionné par l'informatique et les technologies numériques, je m'intéresse autant à la programmation qu'à la compréhension des systèmes qui la sous-tendent. Curieux et rigoureux, j'aime concevoir des projets concrets, apprendre de nouvelles technologies et optimiser mes solutions. Mon objectif est de continuer à progresser techniquement tout en développant une vision solide et réfléchie du développement logiciel."
+  },
+  "skills": {
+    "title": "Mes Compétences",
+    "current": "Compétences Actuelles",
+    "learning": "Stack en Apprentissage"
+  },
+  "experience": {
+    "title": "Expérience & Éducation",
+    "job1": {
+      "title": "Développeur Informatique",
+      "company": "Micro-entreprise",
+      "description": "Création de ma micro-entreprise de développement informatique. Développement de sites web, applications et solutions sur mesure pour les clients."
+    },
+    "edu1": {
+      "title": "BUT Informatique",
+      "school": "URCA - Université de Reims Champagne-Ardenne",
+      "description": "Formation en 3 ans en développement informatique. Apprentissage des technologies modernes, gestion de projet et développement d'applications."
+    },
+    "edu2": {
+      "title": "Baccalauréat Général avec Mention",
+      "school": "Spécialités NSI et Mathématiques",
+      "description": "Obtention du baccalauréat général avec mention. Spécialités Numérique et Sciences Informatiques (NSI) et Mathématiques."
+    }
+  },
+  "projects": {
+    "title": "Mes Projets",
+    "subtitle": "Pour plus d'informations, n'hésitez pas à consulter mon",
+    "project1": {
+      "title": "GainzTracker",
+      "description": "Application de gestion de macronutriments pour suivre son alimentation et atteindre ses objectifs fitness. Développée en collaboration avec Jules Thiefain."
+    },
+    "project2": {
+      "title": "BetterIutRcc",
+      "description": "Extension pour améliorer l'interface de l'intranet de l'URCA. Ajout de fonctionnalités et amélioration de l'expérience utilisateur pour les étudiants."
+    },
+    "project3": {
+      "title": "Portfolio Mannequinat",
+      "description": "Site portfolio professionnel pour un mannequin. Design élégant et moderne mettant en valeur le book photo et les collaborations."
+    },
+    "viewCode": "Voir le code"
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "subtitle": "N'hésitez pas à me contacter pour discuter de vos projets ou opportunités",
+    "email": "Email",
+    "phone": "Téléphone",
+    "location": "Localisation",
+    "form": {
+      "name": "Votre nom",
+      "email": "Votre email",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "submit": "Envoyer le message"
+    }
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  }
+}
