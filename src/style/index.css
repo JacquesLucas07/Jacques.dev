@@ -158,12 +158,14 @@ body {
     border: 2px solid var(--border-color);
     border-radius: 8px;
     box-shadow: var(--shadow-lg);
-    min-width: 150px;
+    min-width: 180px;
+    max-width: 220px;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
     transition: var(--transition);
     z-index: 1000;
+    overflow: hidden;
 }
 
 .lang-menu.active {
@@ -172,9 +174,67 @@ body {
     transform: translateY(0);
 }
 
+.lang-search-container {
+    position: relative;
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.lang-search {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    padding-left: 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background-color: var(--bg-secondary);
+    color: var(--text-color);
+    font-size: 0.85rem;
+    outline: none;
+    transition: var(--transition);
+}
+
+.lang-search:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.lang-search::placeholder {
+    color: var(--text-light);
+}
+
+.lang-search-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-light);
+    font-size: 0.8rem;
+    pointer-events: none;
+}
+
+.lang-options-container {
+    max-height: 250px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) var(--bg-secondary);
+}
+
+.lang-options-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.lang-options-container::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+.lang-options-container::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 3px;
+}
+
 .lang-option {
     width: 100%;
-    padding: 0.75rem 1rem;
+    padding: 0.6rem 0.75rem;
     background: none;
     border: none;
     color: var(--text-color);
@@ -184,7 +244,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
 }
 
 .lang-option:hover {
@@ -192,12 +252,15 @@ body {
     color: var(--primary-color);
 }
 
-.lang-option:first-child {
-    border-radius: 6px 6px 0 0;
+.lang-option.hidden {
+    display: none;
 }
 
-.lang-option:last-child {
-    border-radius: 0 0 6px 6px;
+.lang-no-results {
+    padding: 1rem;
+    text-align: center;
+    color: var(--text-light);
+    font-size: 0.85rem;
 }
 
 .burger-menu {
