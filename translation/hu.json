@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "Rólam",
+    "skills": "Készségek",
+    "experience": "Tapasztalat",
+    "projects": "Projektek",
+    "contact": "Kapcsolat"
+  },
+  "about": {
+    "title": "Rólam",
+    "subtitle": "Szenvedélyes fejlesztő",
+    "description": "Informatika és digitális technológiák iránt szenvedélyes fejlesztőként egyaránt érdeklődöm a programozás és az azt támogató rendszerek megértése iránt. Kíváncsi és alapos vagyok, szeretek konkrét projekteket tervezni, új technológiákat tanulni és optimalizálni megoldásaimat. Célom a technikai fejlődés folytatása, miközben szilárd és átgondolt víziót fejlesztek a szoftverfejlesztésről."
+  },
+  "skills": {
+    "title": "Készségeim",
+    "current": "Jelenlegi készségek",
+    "learning": "Tanulás alatt álló technológiák"
+  },
+  "experience": {
+    "title": "Tapasztalat és oktatás",
+    "job1": {
+      "title": "Szoftverfejlesztő",
+      "company": "Mikrovállalkozás",
+      "description": "IT-fejlesztési mikrovállalkozásom létrehozása. Weboldalak, alkalmazások és testreszabott megoldások fejlesztése ügyfelek számára."
+    },
+    "edu1": {
+      "title": "Informatikai alapképzés",
+      "school": "URCA - Reims-i Egyetem Champagne-Ardenne",
+      "description": "3 éves IT-fejlesztési képzés. Modern technológiák, projektmenedzsment és alkalmazásfejlesztés tanulása."
+    },
+    "edu2": {
+      "title": "Érettségi kitüntetéssel",
+      "school": "Szakirányok: Informatika és Matematika",
+      "description": "Érettségi megszerzése kitüntetéssel. Szakirányok: Digitális és informatikai tudományok (NSI) és Matematika."
+    }
+  },
+  "projects": {
+    "title": "Projektjeim",
+    "subtitle": "További információkért látogassa meg",
+    "project1": {
+      "title": "GainzTracker",
+      "description": "Makrotápanyag-kezelő alkalmazás az étrend követésére és fitness célok elérésére. Jules Thiefainnel közösen fejlesztve."
+    },
+    "project2": {
+      "title": "BetterIutRcc",
+      "description": "Bővítmény az URCA intranet felületének javítására. Funkciók hozzáadása és a felhasználói élmény javítása a hallgatók számára."
+    },
+    "project3": {
+      "title": "Modell portfólió",
+      "description": "Professzionális portfólió weboldal egy modell számára. Elegáns és modern dizájn, amely kiemeli a fotókönyvet és az együttműködéseket."
+    },
+    "viewCode": "Kód megtekintése"
+  },
+  "contact": {
+    "title": "Kapcsolatfelvétel",
+    "subtitle": "Ne habozzon kapcsolatba lépni velem projektjei vagy lehetőségei megbeszéléséhez",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "location": "Helyszín",
+    "form": {
+      "name": "Az Ön neve",
+      "email": "Az Ön e-mail címe",
+      "subject": "Tárgy",
+      "message": "Az Ön üzenete",
+      "submit": "Üzenet küldése"
+    }
+  },
+  "footer": {
+    "rights": "Minden jog fenntartva."
+  }
+}

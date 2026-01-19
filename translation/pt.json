@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "Sobre mim",
+    "skills": "Habilidades",
+    "experience": "Experiência",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "subtitle": "Desenvolvedor apaixonado",
+    "description": "Desenvolvedor apaixonado por informática e tecnologias digitais, interesso-me tanto pela programação quanto pela compreensão dos sistemas que a sustentam. Curioso e rigoroso, gosto de conceber projetos concretos, aprender novas tecnologias e otimizar minhas soluções. Meu objetivo é continuar progredindo tecnicamente enquanto desenvolvo uma visão sólida e refletida do desenvolvimento de software."
+  },
+  "skills": {
+    "title": "Minhas habilidades",
+    "current": "Habilidades atuais",
+    "learning": "Tecnologias em aprendizado"
+  },
+  "experience": {
+    "title": "Experiência e educação",
+    "job1": {
+      "title": "Desenvolvedor de software",
+      "company": "Microempresa",
+      "description": "Criação da minha microempresa de desenvolvimento informático. Desenvolvimento de sites, aplicativos e soluções personalizadas para clientes."
+    },
+    "edu1": {
+      "title": "Bacharelado em Informática",
+      "school": "URCA - Universidade de Reims Champagne-Ardenne",
+      "description": "Formação de 3 anos em desenvolvimento informático. Aprendizado de tecnologias modernas, gestão de projetos e desenvolvimento de aplicativos."
+    },
+    "edu2": {
+      "title": "Ensino médio com menção",
+      "school": "Especialidades: Informática e Matemática",
+      "description": "Obtenção do ensino médio com menção. Especialidades em Ciências Digitais e Informáticas (NSI) e Matemática."
+    }
+  },
+  "projects": {
+    "title": "Meus projetos",
+    "subtitle": "Para mais informações, visite meu",
+    "project1": {
+      "title": "GainzTracker",
+      "description": "Aplicativo de gestão de macronutrientes para acompanhar a alimentação e alcançar objetivos fitness. Desenvolvido em colaboração com Jules Thiefain."
+    },
+    "project2": {
+      "title": "BetterIutRcc",
+      "description": "Extensão para melhorar a interface da intranet da URCA. Adição de funcionalidades e melhoria da experiência do usuário para estudantes."
+    },
+    "project3": {
+      "title": "Portfólio de modelo",
+      "description": "Site portfólio profissional para um modelo. Design elegante e moderno destacando o book de fotos e as colaborações."
+    },
+    "viewCode": "Ver código"
+  },
+  "contact": {
+    "title": "Entre em contato",
+    "subtitle": "Não hesite em me contatar para discutir seus projetos ou oportunidades",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "location": "Localização",
+    "form": {
+      "name": "Seu nome",
+      "email": "Seu e-mail",
+      "subject": "Assunto",
+      "message": "Sua mensagem",
+      "submit": "Enviar mensagem"
+    }
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  }
+}

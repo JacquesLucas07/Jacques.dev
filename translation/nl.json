@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "Over mij",
+    "skills": "Vaardigheden",
+    "experience": "Ervaring",
+    "projects": "Projecten",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "Over mij",
+    "subtitle": "Gepassioneerde ontwikkelaar",
+    "description": "Als ontwikkelaar gepassioneerd door informatica en digitale technologieën, interesseer ik me zowel voor programmeren als voor het begrijpen van de systemen die het ondersteunen. Nieuwsgierig en rigoureus, hou ik ervan om concrete projecten te ontwerpen, nieuwe technologieën te leren en mijn oplossingen te optimaliseren. Mijn doel is om technisch te blijven groeien terwijl ik een solide en doordachte visie op softwareontwikkeling ontwikkel."
+  },
+  "skills": {
+    "title": "Mijn vaardigheden",
+    "current": "Huidige vaardigheden",
+    "learning": "Technologieën in opleiding"
+  },
+  "experience": {
+    "title": "Ervaring en opleiding",
+    "job1": {
+      "title": "Software ontwikkelaar",
+      "company": "Micro-onderneming",
+      "description": "Oprichting van mijn micro-onderneming voor informaticaontwikkeling. Ontwikkeling van websites, applicaties en op maat gemaakte oplossingen voor klanten."
+    },
+    "edu1": {
+      "title": "Bachelor Informatica",
+      "school": "URCA - Universiteit van Reims Champagne-Ardenne",
+      "description": "3-jarige opleiding in informaticaontwikkeling. Leren van moderne technologieën, projectmanagement en applicatieontwikkeling."
+    },
+    "edu2": {
+      "title": "Middelbare schooldiploma met onderscheiding",
+      "school": "Specialisaties: Informatica en Wiskunde",
+      "description": "Behalen van het middelbare schooldiploma met onderscheiding. Specialisaties in Digitale en Informaticawetenschappen (NSI) en Wiskunde."
+    }
+  },
+  "projects": {
+    "title": "Mijn projecten",
+    "subtitle": "Voor meer informatie, bezoek mijn",
+    "project1": {
+      "title": "GainzTracker",
+      "description": "Applicatie voor macronutriëntenbeheer om voeding te volgen en fitnessdoelen te bereiken. Ontwikkeld in samenwerking met Jules Thiefain."
+    },
+    "project2": {
+      "title": "BetterIutRcc",
+      "description": "Extensie om de interface van het URCA intranet te verbeteren. Toevoeging van functionaliteiten en verbetering van de gebruikerservaring voor studenten."
+    },
+    "project3": {
+      "title": "Model portfolio",
+      "description": "Professionele portfoliowebsite voor een model. Elegant en modern ontwerp dat het fotoboek en samenwerkingen benadrukt."
+    },
+    "viewCode": "Bekijk code"
+  },
+  "contact": {
+    "title": "Neem contact op",
+    "subtitle": "Aarzel niet om contact met mij op te nemen om uw projecten of mogelijkheden te bespreken",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "location": "Locatie",
+    "form": {
+      "name": "Uw naam",
+      "email": "Uw e-mail",
+      "subject": "Onderwerp",
+      "message": "Uw bericht",
+      "submit": "Bericht verzenden"
+    }
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden."
+  }
+}

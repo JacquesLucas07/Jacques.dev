@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "소개",
+    "skills": "기술",
+    "experience": "경력",
+    "projects": "프로젝트",
+    "contact": "연락처"
+  },
+  "about": {
+    "title": "소개",
+    "subtitle": "열정적인 개발자",
+    "description": "정보 기술과 디지털 기술에 열정을 가진 개발자로서, 프로그래밍과 이를 뒷받침하는 시스템에 대한 이해 모두에 관심이 있습니다. 호기심이 많고 엄격하며, 구체적인 프로젝트를 설계하고, 새로운 기술을 배우고, 솔루션을 최적화하는 것을 즐깁니다. 저의 목표는 소프트웨어 개발에 대한 견고하고 신중한 비전을 발전시키면서 기술적으로 계속 성장하는 것입니다."
+  },
+  "skills": {
+    "title": "내 기술",
+    "current": "현재 기술",
+    "learning": "학습 중인 기술"
+  },
+  "experience": {
+    "title": "경력 및 교육",
+    "job1": {
+      "title": "소프트웨어 개발자",
+      "company": "개인 사업",
+      "description": "정보 개발 마이크로 기업 설립. 고객을 위한 웹사이트, 애플리케이션 및 맞춤형 솔루션 개발."
+    },
+    "edu1": {
+      "title": "정보 기술 학사",
+      "school": "URCA - 랭스 샹파뉴-아르덴 대학교",
+      "description": "3년간의 정보 개발 교육. 최신 기술, 프로젝트 관리 및 애플리케이션 개발 학습."
+    },
+    "edu2": {
+      "title": "고등학교 졸업 (우등)",
+      "school": "전공: 정보학 및 수학",
+      "description": "우등으로 고등학교 졸업. 디지털 및 정보 과학(NSI)과 수학 전공."
+    }
+  },
+  "projects": {
+    "title": "내 프로젝트",
+    "subtitle": "더 많은 정보는 제",
+    "project1": {
+      "title": "GainzTracker",
+      "description": "식단을 추적하고 피트니스 목표를 달성하기 위한 영양소 관리 앱. Jules Thiefain과 공동 개발."
+    },
+    "project2": {
+      "title": "BetterIutRcc",
+      "description": "URCA 인트라넷 인터페이스를 개선하는 확장 프로그램. 학생들을 위한 기능 추가 및 사용자 경험 향상."
+    },
+    "project3": {
+      "title": "모델 포트폴리오",
+      "description": "전문 모델을 위한 포트폴리오 사이트. 사진집과 협업을 보여주는 우아하고 현대적인 디자인."
+    },
+    "viewCode": "코드 보기"
+  },
+  "contact": {
+    "title": "연락하기",
+    "subtitle": "프로젝트나 기회에 대해 언제든지 연락해 주세요",
+    "email": "이메일",
+    "phone": "전화",
+    "location": "위치",
+    "form": {
+      "name": "이름",
+      "email": "이메일",
+      "subject": "제목",
+      "message": "메시지",
+      "submit": "메시지 보내기"
+    }
+  },
+  "footer": {
+    "rights": "모든 권리 보유."
+  }
+}

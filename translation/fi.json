@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "Tietoa minusta",
+    "skills": "Taidot",
+    "experience": "Kokemus",
+    "projects": "Projektit",
+    "contact": "Yhteystiedot"
+  },
+  "about": {
+    "title": "Tietoa minusta",
+    "subtitle": "Intohimoinen kehittäjä",
+    "description": "IT:stä ja digitaalisista teknologioista intohimoisena kehittäjänä kiinnostun yhtä paljon ohjelmoinnista kuin sitä tukevien järjestelmien ymmärtämisestä. Uteliaana ja perusteellisena pidän konkreettisten projektien suunnittelusta, uusien teknologioiden oppimisesta ja ratkaisujeni optimoinnista. Tavoitteeni on jatkaa teknistä kehitystä samalla kun kehitän vankan ja harkitun näkemyksen ohjelmistokehityksestä."
+  },
+  "skills": {
+    "title": "Taitoni",
+    "current": "Nykyiset taidot",
+    "learning": "Opeteltavat teknologiat"
+  },
+  "experience": {
+    "title": "Kokemus ja koulutus",
+    "job1": {
+      "title": "Ohjelmistokehittäjä",
+      "company": "Mikroyritys",
+      "description": "IT-kehityksen mikroyritykseni perustaminen. Verkkosivujen, sovellusten ja räätälöityjen ratkaisujen kehittäminen asiakkaille."
+    },
+    "edu1": {
+      "title": "Tietotekniikan kandidaatti",
+      "school": "URCA - Reimsin yliopisto Champagne-Ardenne",
+      "description": "3-vuotinen IT-kehityksen koulutus. Modernin teknologian, projektinhallinnan ja sovelluskehityksen oppiminen."
+    },
+    "edu2": {
+      "title": "Ylioppilastutkinto kiitettävin arvosanoin",
+      "school": "Erikoistumisalat: Tietotekniikka ja Matematiikka",
+      "description": "Ylioppilastutkinnon suorittaminen kiitettävin arvosanoin. Erikoistuminen digitaalisiin ja tietojenkäsittelytieteisiin (NSI) ja matematiikkaan."
+    }
+  },
+  "projects": {
+    "title": "Projektini",
+    "subtitle": "Lisätietoja löydät",
+    "project1": {
+      "title": "GainzTracker",
+      "description": "Makroravintoaineiden hallintasovellus ruokavalion seurantaan ja kuntoilutavoitteiden saavuttamiseen. Kehitetty yhteistyössä Jules Thiefainin kanssa."
+    },
+    "project2": {
+      "title": "BetterIutRcc",
+      "description": "Laajennus URCA:n intranetin käyttöliittymän parantamiseen. Toimintojen lisääminen ja käyttäjäkokemuksen parantaminen opiskelijoille."
+    },
+    "project3": {
+      "title": "Mallin portfolio",
+      "description": "Ammattimainen portfoliosivusto mallille. Tyylikäs ja moderni muotoilu, joka korostaa kuvakirjaa ja yhteistyöprojekteja."
+    },
+    "viewCode": "Näytä koodi"
+  },
+  "contact": {
+    "title": "Ota yhteyttä",
+    "subtitle": "Älä epäröi ottaa yhteyttä keskustellaksesi projekteistasi tai mahdollisuuksista",
+    "email": "Sähköposti",
+    "phone": "Puhelin",
+    "location": "Sijainti",
+    "form": {
+      "name": "Nimesi",
+      "email": "Sähköpostisi",
+      "subject": "Aihe",
+      "message": "Viestisi",
+      "submit": "Lähetä viesti"
+    }
+  },
+  "footer": {
+    "rights": "Kaikki oikeudet pidätetään."
+  }
+}
