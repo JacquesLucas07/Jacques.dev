@@ -69,6 +69,8 @@ const langToggle = document.getElementById('langToggle');
 const langMenu = document.getElementById('langMenu');
 const currentLangDisplay = document.getElementById('currentLang');
 const langOptions = document.querySelectorAll('.lang-option');
+const langSearch = document.getElementById('langSearch');
+const langNoResults = document.getElementById('langNoResults');
 
 // Charger la langue sauvegardée
 const savedLang = localStorage.getItem('language') || 'fr';
@@ -80,6 +82,11 @@ loadTranslations(savedLang);
 langToggle.addEventListener('click', (e) => {
     e.stopPropagation();
     langMenu.classList.toggle('active');
+    if (langMenu.classList.contains('active')) {
+        langSearch.value = '';
+        filterLanguages('');
+        setTimeout(() => langSearch.focus(), 100);
+    }
 });
 
 // Sélection d'une langue
@@ -92,7 +99,48 @@ langOptions.forEach(option => {
         localStorage.setItem('language', selectedLang);
         loadTranslations(selectedLang);
         langMenu.classList.remove('active');
+        langSearch.value = '';
+        filterLanguages('');
     });
+});
+
+// Fonction de filtrage des langues
+function filterLanguages(searchTerm) {
+    const term = searchTerm.toLowerCase().trim();
+    let visibleCount = 0;
+
+    langOptions.forEach(option => {
+        const langName = option.textContent.toLowerCase();
+        const langCode = option.dataset.lang.toLowerCase();
+
+        if (langName.includes(term) || langCode.includes(term)) {
+            option.classList.remove('hidden');
+            visibleCount++;
+        } else {
+            option.classList.add('hidden');
+        }
+    });
+
+    langNoResults.style.display = visibleCount === 0 ? 'block' : 'none';
+}
+
+// Événement de recherche
+langSearch.addEventListener('input', (e) => {
+    filterLanguages(e.target.value);
+});
+
+// Empêcher la fermeture du menu quand on clique dans la recherche
+langSearch.addEventListener('click', (e) => {
+    e.stopPropagation();
+});
+
+// Navigation au clavier dans la recherche
+langSearch.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        langMenu.classList.remove('active');
+        langSearch.value = '';
+        filterLanguages('');
+    }
 });
 
 // Fermer le menu si on clique ailleurs
