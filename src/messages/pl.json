@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "O mnie",
+    "skills": "Umiejętności",
+    "experience": "Doświadczenie",
+    "projects": "Projekty",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "title": "O mnie",
+    "subtitle": "Pasjonat programowania",
+    "description": "Jako programista pasjonujący się informatyką i technologiami cyfrowymi, interesuję się zarówno programowaniem, jak i zrozumieniem systemów, które je wspierają. Ciekawski i skrupulatny, lubię projektować konkretne projekty, uczyć się nowych technologii i optymalizować swoje rozwiązania. Moim celem jest dalszy rozwój techniczny przy jednoczesnym rozwijaniu solidnej i przemyślanej wizji tworzenia oprogramowania."
+  },
+  "skills": {
+    "title": "Moje umiejętności",
+    "current": "Obecne umiejętności",
+    "learning": "Technologie w nauce"
+  },
+  "experience": {
+    "title": "Doświadczenie i edukacja",
+    "job1": {
+      "title": "Programista",
+      "company": "Mikroprzedsiębiorstwo",
+      "description": "Założenie mojego mikroprzedsiębiorstwa zajmującego się rozwojem informatyki. Tworzenie stron internetowych, aplikacji i rozwiązań na zamówienie dla klientów."
+    },
+    "edu1": {
+      "title": "Licencjat z informatyki",
+      "school": "URCA - Uniwersytet w Reims Champagne-Ardenne",
+      "description": "3-letnie szkolenie w zakresie rozwoju informatyki. Nauka nowoczesnych technologii, zarządzania projektami i tworzenia aplikacji."
+    },
+    "edu2": {
+      "title": "Matura z wyróżnieniem",
+      "school": "Specjalizacje: Informatyka i Matematyka",
+      "description": "Uzyskanie matury z wyróżnieniem. Specjalizacje w Naukach Cyfrowych i Informatycznych (NSI) oraz Matematyce."
+    }
+  },
+  "projects": {
+    "title": "Moje projekty",
+    "subtitle": "Więcej informacji znajdziesz na moim",
+    "project1": {
+      "title": "GainzTracker",
+      "description": "Aplikacja do zarządzania makroskładnikami do śledzenia diety i osiągania celów fitness. Opracowana we współpracy z Jules Thiefain."
+    },
+    "project2": {
+      "title": "BetterIutRcc",
+      "description": "Rozszerzenie do ulepszenia interfejsu intranetu URCA. Dodanie funkcjonalności i poprawa doświadczenia użytkownika dla studentów."
+    },
+    "project3": {
+      "title": "Portfolio modelki",
+      "description": "Profesjonalna strona portfolio dla modelki. Elegancki i nowoczesny design prezentujący book zdjęciowy i współprace."
+    },
+    "viewCode": "Zobacz kod"
+  },
+  "contact": {
+    "title": "Skontaktuj się",
+    "subtitle": "Nie wahaj się ze mną skontaktować, aby omówić swoje projekty lub możliwości",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "location": "Lokalizacja",
+    "form": {
+      "name": "Twoje imię",
+      "email": "Twój e-mail",
+      "subject": "Temat",
+      "message": "Twoja wiadomość",
+      "submit": "Wyślij wiadomość"
+    }
+  },
+  "footer": {
+    "rights": "Wszelkie prawa zastrzeżone."
+  }
+}

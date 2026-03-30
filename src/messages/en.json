@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Passionate Developer",
+    "description": "Developer passionate about computer science and digital technologies, I am equally interested in programming and understanding the systems that underpin it. Curious and rigorous, I enjoy designing concrete projects, learning new technologies and optimizing my solutions. My goal is to continue to progress technically while developing a solid and thoughtful vision of software development."
+  },
+  "skills": {
+    "title": "My Skills",
+    "current": "Current Skills",
+    "learning": "Learning Stack"
+  },
+  "experience": {
+    "title": "Experience & Education",
+    "job1": {
+      "title": "Software Developer",
+      "company": "Self-Employed",
+      "description": "Created my software development micro-business. Development of websites, applications and custom solutions for clients."
+    },
+    "edu1": {
+      "title": "Bachelor's Degree in Computer Science",
+      "school": "URCA - University of Reims Champagne-Ardenne",
+      "description": "3-year program in software development. Learning modern technologies, project management and application development."
+    },
+    "edu2": {
+      "title": "High School Diploma with Honors",
+      "school": "Specialties: Computer Science & Mathematics",
+      "description": "Obtained high school diploma with honors. Specialties in Computer Science (NSI) and Mathematics."
+    }
+  },
+  "projects": {
+    "title": "My Projects",
+    "subtitle": "For more information, feel free to check out my",
+    "project1": {
+      "title": "GainzTracker",
+      "description": "Macronutrient tracking application to monitor diet and achieve fitness goals. Developed in collaboration with Jules Thiefain."
+    },
+    "project2": {
+      "title": "BetterIutRcc",
+      "description": "Extension to improve the URCA intranet interface. Adding features and improving user experience for students."
+    },
+    "project3": {
+      "title": "Modeling Portfolio",
+      "description": "Professional portfolio website for a model. Elegant and modern design showcasing the photo book and collaborations."
+    },
+    "viewCode": "View Code"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Feel free to contact me to discuss your projects or opportunities",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "subject": "Subject",
+      "message": "Your message",
+      "submit": "Send message"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

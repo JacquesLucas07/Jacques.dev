@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "Om mig",
+    "skills": "Færdigheder",
+    "experience": "Erfaring",
+    "projects": "Projekter",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "title": "Om mig",
+    "subtitle": "Passioneret udvikler",
+    "description": "Som udvikler med passion for IT og digital teknologi interesserer jeg mig lige så meget for programmering som for forståelsen af de systemer, der understøtter den. Nysgerrig og grundig, jeg kan lide at designe konkrete projekter, lære ny teknologi og optimere mine løsninger. Mit mål er at fortsætte med at udvikle mig teknisk, mens jeg udvikler en solid og gennemtænkt vision for softwareudvikling."
+  },
+  "skills": {
+    "title": "Mine færdigheder",
+    "current": "Nuværende færdigheder",
+    "learning": "Teknologier under læring"
+  },
+  "experience": {
+    "title": "Erfaring og uddannelse",
+    "job1": {
+      "title": "Softwareudvikler",
+      "company": "Mikrovirksomhed",
+      "description": "Oprettelse af min mikrovirksomhed for IT-udvikling. Udvikling af hjemmesider, applikationer og skræddersyede løsninger til kunder."
+    },
+    "edu1": {
+      "title": "Bachelor i datalogi",
+      "school": "URCA - Universitetet i Reims Champagne-Ardenne",
+      "description": "3-årig uddannelse i IT-udvikling. Læring af moderne teknologi, projektledelse og applikationsudvikling."
+    },
+    "edu2": {
+      "title": "Studentereksamen med udmærkelse",
+      "school": "Specialiseringer: Datalogi og Matematik",
+      "description": "Opnåelse af studentereksamen med udmærkelse. Specialiseringer i Digital- og datavidenskab (NSI) og Matematik."
+    }
+  },
+  "projects": {
+    "title": "Mine projekter",
+    "subtitle": "For mere information, besøg min",
+    "project1": {
+      "title": "GainzTracker",
+      "description": "App til makronæringsstyring til at følge kosten og nå fitnessmål. Udviklet i samarbejde med Jules Thiefain."
+    },
+    "project2": {
+      "title": "BetterIutRcc",
+      "description": "Udvidelse til at forbedre URCAs intranetgrænseflade. Tilføjelse af funktioner og forbedring af brugeroplevelsen for studerende."
+    },
+    "project3": {
+      "title": "Model portefølje",
+      "description": "Professionel porteføljehjemmeside for en model. Elegant og moderne design, der fremhæver fotobog og samarbejder."
+    },
+    "viewCode": "Se kode"
+  },
+  "contact": {
+    "title": "Kontakt mig",
+    "subtitle": "Tøv ikke med at kontakte mig for at diskutere dine projekter eller muligheder",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "location": "Placering",
+    "form": {
+      "name": "Dit navn",
+      "email": "Din e-mail",
+      "subject": "Emne",
+      "message": "Din besked",
+      "submit": "Send besked"
+    }
+  },
+  "footer": {
+    "rights": "Alle rettigheder forbeholdes."
+  }
+}

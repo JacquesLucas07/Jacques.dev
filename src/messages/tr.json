@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "Hakkımda",
+    "skills": "Yetenekler",
+    "experience": "Deneyim",
+    "projects": "Projeler",
+    "contact": "İletişim"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "subtitle": "Tutkulu geliştirici",
+    "description": "Bilişim ve dijital teknolojilere tutkuyla bağlı bir geliştirici olarak, hem programlama hem de onu destekleyen sistemleri anlama konusunda ilgiliyim. Meraklı ve titiz, somut projeler tasarlamayı, yeni teknolojiler öğrenmeyi ve çözümlerimi optimize etmeyi seviyorum. Hedefim, yazılım geliştirme konusunda sağlam ve düşünceli bir vizyon geliştirirken teknik olarak ilerlemeye devam etmek."
+  },
+  "skills": {
+    "title": "Yeteneklerim",
+    "current": "Mevcut yetenekler",
+    "learning": "Öğrenilen teknolojiler"
+  },
+  "experience": {
+    "title": "Deneyim ve eğitim",
+    "job1": {
+      "title": "Yazılım geliştirici",
+      "company": "Mikro işletme",
+      "description": "Bilişim geliştirme mikro işletmemin kurulması. Müşteriler için web siteleri, uygulamalar ve özel çözümler geliştirme."
+    },
+    "edu1": {
+      "title": "Bilgisayar Bilimi Lisans",
+      "school": "URCA - Reims Üniversitesi Champagne-Ardenne",
+      "description": "3 yıllık bilişim geliştirme eğitimi. Modern teknolojiler, proje yönetimi ve uygulama geliştirme öğrenimi."
+    },
+    "edu2": {
+      "title": "Onur derecesiyle lise diploması",
+      "school": "Uzmanlıklar: Bilgisayar Bilimi ve Matematik",
+      "description": "Onur derecesiyle lise diploması alınması. Dijital ve Bilgisayar Bilimleri (NSI) ve Matematik uzmanlıkları."
+    }
+  },
+  "projects": {
+    "title": "Projelerim",
+    "subtitle": "Daha fazla bilgi için",
+    "project1": {
+      "title": "GainzTracker",
+      "description": "Beslenmeyi takip etmek ve fitness hedeflerine ulaşmak için makro besin yönetim uygulaması. Jules Thiefain ile işbirliği içinde geliştirildi."
+    },
+    "project2": {
+      "title": "BetterIutRcc",
+      "description": "URCA intranet arayüzünü iyileştirmek için uzantı. Öğrenciler için özellik ekleme ve kullanıcı deneyimini iyileştirme."
+    },
+    "project3": {
+      "title": "Model portföyü",
+      "description": "Bir model için profesyonel portföy web sitesi. Fotoğraf kitabını ve işbirliklerini öne çıkaran zarif ve modern tasarım."
+    },
+    "viewCode": "Kodu görüntüle"
+  },
+  "contact": {
+    "title": "Bana ulaşın",
+    "subtitle": "Projelerinizi veya fırsatları görüşmek için benimle iletişime geçmekten çekinmeyin",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "location": "Konum",
+    "form": {
+      "name": "Adınız",
+      "email": "E-postanız",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "submit": "Mesaj gönder"
+    }
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır."
+  }
+}

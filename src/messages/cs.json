@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "O mně",
+    "skills": "Dovednosti",
+    "experience": "Zkušenosti",
+    "projects": "Projekty",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "title": "O mně",
+    "subtitle": "Vášnivý vývojář",
+    "description": "Jako vývojář s vášní pro IT a digitální technologie se zajímám jak o programování, tak o pochopení systémů, které jej podporují. Zvídavý a pečlivý, rád navrhuji konkrétní projekty, učím se nové technologie a optimalizuji svá řešení. Mým cílem je pokračovat v technickém rozvoji a zároveň rozvíjet solidní a promyšlenou vizi vývoje softwaru."
+  },
+  "skills": {
+    "title": "Moje dovednosti",
+    "current": "Současné dovednosti",
+    "learning": "Technologie v učení"
+  },
+  "experience": {
+    "title": "Zkušenosti a vzdělání",
+    "job1": {
+      "title": "Softwarový vývojář",
+      "company": "Mikropodnik",
+      "description": "Založení mého mikropodniku pro vývoj IT. Vývoj webových stránek, aplikací a řešení na míru pro klienty."
+    },
+    "edu1": {
+      "title": "Bakalář informatiky",
+      "school": "URCA - Univerzita v Remeši Champagne-Ardenne",
+      "description": "3leté vzdělávání v oblasti vývoje IT. Učení moderních technologií, projektového řízení a vývoje aplikací."
+    },
+    "edu2": {
+      "title": "Maturita s vyznamenáním",
+      "school": "Specializace: Informatika a Matematika",
+      "description": "Získání maturity s vyznamenáním. Specializace v digitálních a informatických vědách (NSI) a matematice."
+    }
+  },
+  "projects": {
+    "title": "Moje projekty",
+    "subtitle": "Pro více informací navštivte můj",
+    "project1": {
+      "title": "GainzTracker",
+      "description": "Aplikace pro správu makroživin ke sledování stravy a dosažení fitness cílů. Vyvinuto ve spolupráci s Jules Thiefain."
+    },
+    "project2": {
+      "title": "BetterIutRcc",
+      "description": "Rozšíření pro vylepšení rozhraní intranetu URCA. Přidání funkcí a zlepšení uživatelského zážitku pro studenty."
+    },
+    "project3": {
+      "title": "Portfolio modelky",
+      "description": "Profesionální portfoliový web pro modelku. Elegantní a moderní design prezentující fotobook a spolupráce."
+    },
+    "viewCode": "Zobrazit kód"
+  },
+  "contact": {
+    "title": "Kontaktujte mě",
+    "subtitle": "Neváhejte mě kontaktovat pro diskusi o vašich projektech nebo příležitostech",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "location": "Umístění",
+    "form": {
+      "name": "Vaše jméno",
+      "email": "Váš e-mail",
+      "subject": "Předmět",
+      "message": "Vaše zpráva",
+      "submit": "Odeslat zprávu"
+    }
+  },
+  "footer": {
+    "rights": "Všechna práva vyhrazena."
+  }
+}

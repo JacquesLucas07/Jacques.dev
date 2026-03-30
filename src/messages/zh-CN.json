@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "about": "关于我",
+    "skills": "技能",
+    "experience": "经历",
+    "projects": "项目",
+    "contact": "联系"
+  },
+  "about": {
+    "title": "关于我",
+    "subtitle": "热情的开发者",
+    "description": "我是一名对信息技术和数字技术充满热情的开发者，对编程和理解其背后的系统同样感兴趣。好奇且严谨，我喜欢设计具体的项目、学习新技术并优化我的解决方案。我的目标是继续在技术上进步，同时发展对软件开发的扎实和深思熟虑的愿景。"
+  },
+  "skills": {
+    "title": "我的技能",
+    "current": "当前技能",
+    "learning": "正在学习的技术"
+  },
+  "experience": {
+    "title": "经历与教育",
+    "job1": {
+      "title": "软件开发者",
+      "company": "个人企业",
+      "description": "创建我的信息开发微型企业。为客户开发网站、应用程序和定制解决方案。"
+    },
+    "edu1": {
+      "title": "信息技术学士",
+      "school": "URCA - 兰斯香槟-阿登大学",
+      "description": "三年制信息开发培训。学习现代技术、项目管理和应用程序开发。"
+    },
+    "edu2": {
+      "title": "高中毕业证书（优等）",
+      "school": "专业：信息与数学",
+      "description": "以优等成绩获得高中毕业证书。专业为数字与信息科学（NSI）和数学。"
+    }
+  },
+  "projects": {
+    "title": "我的项目",
+    "subtitle": "如需更多信息，请访问我的",
+    "project1": {
+      "title": "GainzTracker",
+      "description": "宏量营养素管理应用程序，用于追踪饮食并达成健身目标。与 Jules Thiefain 合作开发。"
+    },
+    "project2": {
+      "title": "BetterIutRcc",
+      "description": "改善 URCA 内部网络界面的扩展程序。为学生添加功能并改善用户体验。"
+    },
+    "project3": {
+      "title": "模特作品集",
+      "description": "专业模特作品集网站。优雅现代的设计，展示照片集和合作项目。"
+    },
+    "viewCode": "查看代码"
+  },
+  "contact": {
+    "title": "联系我",
+    "subtitle": "欢迎与我联系，讨论您的项目或合作机会",
+    "email": "电子邮件",
+    "phone": "电话",
+    "location": "地点",
+    "form": {
+      "name": "您的姓名",
+      "email": "您的电子邮件",
+      "subject": "主题",
+      "message": "您的消息",
+      "submit": "发送消息"
+    }
+  },
+  "footer": {
+    "rights": "版权所有。"
+  }
+}
