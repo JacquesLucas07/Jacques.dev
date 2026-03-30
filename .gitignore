@@ -24,10 +24,13 @@ yarn-error.log*
 *.temp
 .cache/
 
-# Build outputs (if you add build tools later)
+# Build outputs
 dist/
 build/
 out/
+.next/
+.open-next/
+.next/
 
 # Dependencies (if you add npm/yarn later)
 node_modules/
