@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import type { Metadata } from "next";
 import ThemeProvider from "@/components/ThemeProvider";
+import LangSetter from "@/components/LangSetter";
 
 type Props = {
   children: React.ReactNode;
@@ -84,36 +85,35 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body className="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Person",
-              name: "Jacques Lucas",
-              alternateName: "Lucas Jacques",
-              url: "https://jacques.dev",
-              jobTitle: "Développeur Web & Logiciel",
-              sameAs: [
-                "https://github.com/JacquesLucas07",
-                "https://www.linkedin.com/in/lucas-jacques-76226434a",
-              ],
-              address: {
-                "@type": "PostalAddress",
-                addressLocality: "Reims",
-                addressCountry: "FR",
-              },
-            }),
-          }}
-        />
-        <NextIntlClientProvider messages={messages}>
-          <ThemeProvider>
-            {children}
-          </ThemeProvider>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <>
+      <LangSetter locale={locale} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: "Jacques Lucas",
+            alternateName: "Lucas Jacques",
+            url: "https://jacques.dev",
+            jobTitle: "Développeur Web & Logiciel",
+            sameAs: [
+              "https://github.com/JacquesLucas07",
+              "https://www.linkedin.com/in/lucas-jacques-76226434a",
+            ],
+            address: {
+              "@type": "PostalAddress",
+              addressLocality: "Reims",
+              addressCountry: "FR",
+            },
+          }),
+        }}
+      />
+      <NextIntlClientProvider messages={messages}>
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
+      </NextIntlClientProvider>
+    </>
   );
 }
