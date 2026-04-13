@@ -38,18 +38,20 @@
     "title": "私のプロジェクト",
     "subtitle": "詳細については、私の",
     "project1": {
-      "title": "GainzTracker",
-      "description": "食事を追跡し、フィットネス目標を達成するためのマクロ栄養素管理アプリ。Jules Thiefainと共同開発。"
+      "title": "RaceUp",
+      "description": "ハイレベルなソフトウェア開発およびファイナンス企業。要求の厳しいクライアント向けにオーダーメイドのソリューションと革新的なプロジェクトを設計。"
     },
     "project2": {
-      "title": "BetterIutRcc",
-      "description": "URCAイントラネットのインターフェースを改善する拡張機能。学生向けの機能追加とユーザー体験の向上。"
+      "title": "Edge",
+      "description": "個人アシスタントとして設計された100%オフラインのミニAI。接続やクラウド依存なしに、完全にローカルで動作。"
     },
     "project3": {
-      "title": "モデルポートフォリオ",
-      "description": "プロのモデル向けポートフォリオサイト。写真集とコラボレーションを紹介するエレガントでモダンなデザイン。"
+      "title": "GainzTracker",
+      "description": "食事を管理し、日々のフィットネス目標を達成するためのマクロ栄養素管理アプリ。"
     },
-    "viewCode": "コードを見る"
+    "viewCode": "コードを見る",
+    "viewProject": "プロジェクトを見る",
+    "comingSoon": "近日公開"
   },
   "contact": {
     "title": "お問い合わせ",

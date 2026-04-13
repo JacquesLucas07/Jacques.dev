@@ -38,18 +38,20 @@
     "title": "我的项目",
     "subtitle": "如需更多信息，请访问我的",
     "project1": {
-      "title": "GainzTracker",
-      "description": "宏量营养素管理应用程序，用于追踪饮食并达成健身目标。与 Jules Thiefain 合作开发。"
+      "title": "RaceUp",
+      "description": "高端软件开发与金融公司。为高要求客户设计定制解决方案和创新项目。"
     },
     "project2": {
-      "title": "BetterIutRcc",
-      "description": "改善 URCA 内部网络界面的扩展程序。为学生添加功能并改善用户体验。"
+      "title": "Edge",
+      "description": "100% 离线的迷你 AI，设计为个人助手。完全本地运行，无需连接或云端依赖。"
     },
     "project3": {
-      "title": "模特作品集",
-      "description": "专业模特作品集网站。优雅现代的设计，展示照片集和合作项目。"
+      "title": "GainzTracker",
+      "description": "宏量营养素管理应用程序，用于追踪您的饮食并每天实现健身目标。"
     },
-    "viewCode": "查看代码"
+    "viewCode": "查看代码",
+    "viewProject": "查看项目",
+    "comingSoon": "即将推出"
   },
   "contact": {
     "title": "联系我",

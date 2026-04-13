@@ -38,18 +38,20 @@
     "title": "Meine Projekte",
     "subtitle": "Für weitere Informationen besuchen Sie gerne mein",
     "project1": {
-      "title": "GainzTracker",
-      "description": "Makronährstoff-Tracking-Anwendung zur Überwachung der Ernährung und Erreichung von Fitnesszielen. Entwickelt in Zusammenarbeit mit Jules Thiefain."
+      "title": "RaceUp",
+      "description": "Unternehmen für hochwertige Softwareentwicklung und Finanzen. Entwurf maßgeschneiderter Lösungen und innovativer Projekte für anspruchsvolle Kunden."
     },
     "project2": {
-      "title": "BetterIutRcc",
-      "description": "Erweiterung zur Verbesserung der URCA-Intranet-Oberfläche. Hinzufügen von Funktionen und Verbesserung der Benutzererfahrung für Studenten."
+      "title": "Edge",
+      "description": "Mini-KI zu 100% offline, konzipiert als persönlicher Assistent. Läuft vollständig lokal, ohne Verbindung oder Cloud-Abhängigkeit."
     },
     "project3": {
-      "title": "Model-Portfolio",
-      "description": "Professionelle Portfolio-Website für ein Model. Elegantes und modernes Design, das das Fotobuch und Kooperationen präsentiert."
+      "title": "GainzTracker",
+      "description": "Anwendung zur Verwaltung von Makronährstoffen, um die Ernährung zu verfolgen und Fitnessziele im Alltag zu erreichen."
     },
-    "viewCode": "Code anzeigen"
+    "viewCode": "Code anzeigen",
+    "viewProject": "Projekt anzeigen",
+    "comingSoon": "Demnächst verfügbar"
   },
   "contact": {
     "title": "Kontaktieren Sie mich",

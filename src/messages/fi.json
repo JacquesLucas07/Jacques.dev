@@ -38,18 +38,20 @@
     "title": "Projektini",
     "subtitle": "Lisätietoja löydät",
     "project1": {
-      "title": "GainzTracker",
-      "description": "Makroravintoaineiden hallintasovellus ruokavalion seurantaan ja kuntoilutavoitteiden saavuttamiseen. Kehitetty yhteistyössä Jules Thiefainin kanssa."
+      "title": "RaceUp",
+      "description": "Korkeatasoinen ohjelmistokehitys- ja rahoitusyritys. Räätälöityjen ratkaisujen ja innovatiivisten projektien suunnittelu vaativille asiakkaille."
     },
     "project2": {
-      "title": "BetterIutRcc",
-      "description": "Laajennus URCA:n intranetin käyttöliittymän parantamiseen. Toimintojen lisääminen ja käyttäjäkokemuksen parantaminen opiskelijoille."
+      "title": "Edge",
+      "description": "Mini-tekoäly 100% offline, suunniteltu henkilökohtaiseksi avustajaksi. Toimii täysin paikallisesti, ilman yhteyttä tai pilviriippuvuutta."
     },
     "project3": {
-      "title": "Mallin portfolio",
-      "description": "Ammattimainen portfoliosivusto mallille. Tyylikäs ja moderni muotoilu, joka korostaa kuvakirjaa ja yhteistyöprojekteja."
+      "title": "GainzTracker",
+      "description": "Makroravintoaineiden hallintasovellus ruokavalion seurantaan ja kuntoilutavoitteiden saavuttamiseen päivittäin."
     },
-    "viewCode": "Näytä koodi"
+    "viewCode": "Näytä koodi",
+    "viewProject": "Näytä projekti",
+    "comingSoon": "Tulossa pian"
   },
   "contact": {
     "title": "Ota yhteyttä",

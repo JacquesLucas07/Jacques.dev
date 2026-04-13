@@ -38,18 +38,20 @@
     "title": "My Projects",
     "subtitle": "For more information, feel free to check out my",
     "project1": {
-      "title": "GainzTracker",
-      "description": "Macronutrient tracking application to monitor diet and achieve fitness goals. Developed in collaboration with Jules Thiefain."
+      "title": "RaceUp",
+      "description": "High-level software development and finance company. Designing tailor-made solutions and innovative projects for demanding clients."
     },
     "project2": {
-      "title": "BetterIutRcc",
-      "description": "Extension to improve the URCA intranet interface. Adding features and improving user experience for students."
+      "title": "Edge",
+      "description": "100% offline mini AI designed as a personal assistant. Runs entirely locally, without any connection or cloud dependency."
     },
     "project3": {
-      "title": "Modeling Portfolio",
-      "description": "Professional portfolio website for a model. Elegant and modern design showcasing the photo book and collaborations."
+      "title": "GainzTracker",
+      "description": "Macronutrient tracking application to monitor your diet and achieve your fitness goals on a daily basis."
     },
-    "viewCode": "View Code"
+    "viewCode": "View Code",
+    "viewProject": "View project",
+    "comingSoon": "Coming soon"
   },
   "contact": {
     "title": "Contact Me",

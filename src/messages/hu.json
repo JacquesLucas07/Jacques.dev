@@ -38,18 +38,20 @@
     "title": "Projektjeim",
     "subtitle": "További információkért látogassa meg",
     "project1": {
-      "title": "GainzTracker",
-      "description": "Makrotápanyag-kezelő alkalmazás az étrend követésére és fitness célok elérésére. Jules Thiefainnel közösen fejlesztve."
+      "title": "RaceUp",
+      "description": "Magas szintű szoftverfejlesztő és pénzügyi vállalat. Személyre szabott megoldások és innovatív projektek tervezése igényes ügyfelek számára."
     },
     "project2": {
-      "title": "BetterIutRcc",
-      "description": "Bővítmény az URCA intranet felületének javítására. Funkciók hozzáadása és a felhasználói élmény javítása a hallgatók számára."
+      "title": "Edge",
+      "description": "100% offline mini AI, amelyet személyes asszisztensnek terveztek. Teljesen helyben fut, kapcsolat vagy felhőfüggőség nélkül."
     },
     "project3": {
-      "title": "Modell portfólió",
-      "description": "Professzionális portfólió weboldal egy modell számára. Elegáns és modern dizájn, amely kiemeli a fotókönyvet és az együttműködéseket."
+      "title": "GainzTracker",
+      "description": "Makrotápanyag-kezelő alkalmazás az étrend nyomon követésére és a fitness célok napi elérésére."
     },
-    "viewCode": "Kód megtekintése"
+    "viewCode": "Kód megtekintése",
+    "viewProject": "Projekt megtekintése",
+    "comingSoon": "Hamarosan"
   },
   "contact": {
     "title": "Kapcsolatfelvétel",

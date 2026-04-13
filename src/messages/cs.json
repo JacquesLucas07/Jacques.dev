@@ -38,18 +38,20 @@
     "title": "Moje projekty",
     "subtitle": "Pro více informací navštivte můj",
     "project1": {
-      "title": "GainzTracker",
-      "description": "Aplikace pro správu makroživin ke sledování stravy a dosažení fitness cílů. Vyvinuto ve spolupráci s Jules Thiefain."
+      "title": "RaceUp",
+      "description": "Společnost pro vývoj softwaru a finance na vysoké úrovni. Navrhování řešení na míru a inovativních projektů pro náročné klienty."
     },
     "project2": {
-      "title": "BetterIutRcc",
-      "description": "Rozšíření pro vylepšení rozhraní intranetu URCA. Přidání funkcí a zlepšení uživatelského zážitku pro studenty."
+      "title": "Edge",
+      "description": "Mini AI 100% offline navržená jako osobní asistent. Funguje zcela lokálně, bez připojení nebo závislosti na cloudu."
     },
     "project3": {
-      "title": "Portfolio modelky",
-      "description": "Profesionální portfoliový web pro modelku. Elegantní a moderní design prezentující fotobook a spolupráce."
+      "title": "GainzTracker",
+      "description": "Aplikace pro správu makroživin pro sledování stravy a dosažení fitness cílů v každodenním životě."
     },
-    "viewCode": "Zobrazit kód"
+    "viewCode": "Zobrazit kód",
+    "viewProject": "Zobrazit projekt",
+    "comingSoon": "Již brzy"
   },
   "contact": {
     "title": "Kontaktujte mě",

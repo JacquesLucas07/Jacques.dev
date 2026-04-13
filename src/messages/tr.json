@@ -38,18 +38,20 @@
     "title": "Projelerim",
     "subtitle": "Daha fazla bilgi için",
     "project1": {
-      "title": "GainzTracker",
-      "description": "Beslenmeyi takip etmek ve fitness hedeflerine ulaşmak için makro besin yönetim uygulaması. Jules Thiefain ile işbirliği içinde geliştirildi."
+      "title": "RaceUp",
+      "description": "Üst düzey yazılım geliştirme ve finans şirketi. Talepkar müşteriler için özel çözümler ve yenilikçi projelerin tasarımı."
     },
     "project2": {
-      "title": "BetterIutRcc",
-      "description": "URCA intranet arayüzünü iyileştirmek için uzantı. Öğrenciler için özellik ekleme ve kullanıcı deneyimini iyileştirme."
+      "title": "Edge",
+      "description": "Kişisel asistan olarak tasarlanmış %100 çevrimdışı mini yapay zeka. Bağlantı veya bulut bağımlılığı olmadan tamamen yerel olarak çalışır."
     },
     "project3": {
-      "title": "Model portföyü",
-      "description": "Bir model için profesyonel portföy web sitesi. Fotoğraf kitabını ve işbirliklerini öne çıkaran zarif ve modern tasarım."
+      "title": "GainzTracker",
+      "description": "Beslenmenizi takip etmek ve günlük fitness hedeflerinize ulaşmak için makro besin yönetim uygulaması."
     },
-    "viewCode": "Kodu görüntüle"
+    "viewCode": "Kodu görüntüle",
+    "viewProject": "Projeyi görüntüle",
+    "comingSoon": "Yakında"
   },
   "contact": {
     "title": "Bana ulaşın",

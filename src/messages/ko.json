@@ -38,18 +38,20 @@
     "title": "내 프로젝트",
     "subtitle": "더 많은 정보는 제",
     "project1": {
-      "title": "GainzTracker",
-      "description": "식단을 추적하고 피트니스 목표를 달성하기 위한 영양소 관리 앱. Jules Thiefain과 공동 개발."
+      "title": "RaceUp",
+      "description": "고급 소프트웨어 개발 및 금융 회사. 까다로운 고객을 위한 맞춤형 솔루션과 혁신적인 프로젝트 설계."
     },
     "project2": {
-      "title": "BetterIutRcc",
-      "description": "URCA 인트라넷 인터페이스를 개선하는 확장 프로그램. 학생들을 위한 기능 추가 및 사용자 경험 향상."
+      "title": "Edge",
+      "description": "개인 비서로 설계된 100% 오프라인 미니 AI. 연결이나 클라우드 의존성 없이 완전히 로컬에서 작동."
     },
     "project3": {
-      "title": "모델 포트폴리오",
-      "description": "전문 모델을 위한 포트폴리오 사이트. 사진집과 협업을 보여주는 우아하고 현대적인 디자인."
+      "title": "GainzTracker",
+      "description": "식단을 관리하고 매일의 피트니스 목표를 달성하기 위한 영양소 관리 애플리케이션."
     },
-    "viewCode": "코드 보기"
+    "viewCode": "코드 보기",
+    "viewProject": "프로젝트 보기",
+    "comingSoon": "곧 출시"
   },
   "contact": {
     "title": "연락하기",

@@ -38,18 +38,20 @@
     "title": "Mine projekter",
     "subtitle": "For mere information, besøg min",
     "project1": {
-      "title": "GainzTracker",
-      "description": "App til makronæringsstyring til at følge kosten og nå fitnessmål. Udviklet i samarbejde med Jules Thiefain."
+      "title": "RaceUp",
+      "description": "Virksomhed inden for højniveau-softwareudvikling og finans. Design af skræddersyede løsninger og innovative projekter til krævende kunder."
     },
     "project2": {
-      "title": "BetterIutRcc",
-      "description": "Udvidelse til at forbedre URCAs intranetgrænseflade. Tilføjelse af funktioner og forbedring af brugeroplevelsen for studerende."
+      "title": "Edge",
+      "description": "Mini-AI 100% offline designet som en personlig assistent. Fungerer helt lokalt, uden forbindelse eller cloud-afhængighed."
     },
     "project3": {
-      "title": "Model portefølje",
-      "description": "Professionel porteføljehjemmeside for en model. Elegant og moderne design, der fremhæver fotobog og samarbejder."
+      "title": "GainzTracker",
+      "description": "App til håndtering af makronæringsstoffer til at følge din kost og nå dine fitnessmål i hverdagen."
     },
-    "viewCode": "Se kode"
+    "viewCode": "Se kode",
+    "viewProject": "Se projekt",
+    "comingSoon": "Kommer snart"
   },
   "contact": {
     "title": "Kontakt mig",

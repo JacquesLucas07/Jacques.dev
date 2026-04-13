@@ -38,18 +38,20 @@
     "title": "Dự án của tôi",
     "subtitle": "Để biết thêm thông tin, hãy truy cập",
     "project1": {
-      "title": "GainzTracker",
-      "description": "Ứng dụng quản lý dinh dưỡng đa lượng để theo dõi chế độ ăn uống và đạt được mục tiêu thể hình. Được phát triển cùng với Jules Thiefain."
+      "title": "RaceUp",
+      "description": "Công ty phát triển phần mềm cao cấp và tài chính. Thiết kế các giải pháp tùy chỉnh và các dự án sáng tạo cho các khách hàng khó tính."
     },
     "project2": {
-      "title": "BetterIutRcc",
-      "description": "Tiện ích mở rộng để cải thiện giao diện intranet của URCA. Thêm tính năng và cải thiện trải nghiệm người dùng cho sinh viên."
+      "title": "Edge",
+      "description": "AI mini 100% ngoại tuyến được thiết kế như một trợ lý cá nhân. Hoạt động hoàn toàn tại chỗ, không cần kết nối hoặc phụ thuộc vào đám mây."
     },
     "project3": {
-      "title": "Portfolio người mẫu",
-      "description": "Trang web portfolio chuyên nghiệp cho người mẫu. Thiết kế thanh lịch và hiện đại làm nổi bật sách ảnh và các hợp tác."
+      "title": "GainzTracker",
+      "description": "Ứng dụng quản lý dinh dưỡng đa lượng để theo dõi chế độ ăn uống và đạt được mục tiêu thể hình hàng ngày của bạn."
     },
-    "viewCode": "Xem mã"
+    "viewCode": "Xem mã",
+    "viewProject": "Xem dự án",
+    "comingSoon": "Sắp ra mắt"
   },
   "contact": {
     "title": "Liên hệ với tôi",
