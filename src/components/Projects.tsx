@@ -1,9 +1,21 @@
 import { useTranslations } from "next-intl";
 
 const projects = [
-  { key: "project1", tags: ["Python", "React", "API"] },
-  { key: "project2", tags: ["JavaScript", "CSS", "Extension"] },
-  { key: "project3", tags: ["HTML5", "CSS3", "JavaScript"] },
+  {
+    key: "project1",
+    tags: ["Entreprise", "Développement", "Finance"],
+    href: "https://race-up.net",
+  },
+  {
+    key: "project2",
+    tags: ["IA", "Offline", "Assistant"],
+    href: null,
+  },
+  {
+    key: "project3",
+    tags: ["Application", "Fitness", "Nutrition"],
+    href: null,
+  },
 ];
 
 export default function Projects() {
@@ -48,14 +60,20 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <a
-                  href="https://github.com/JacquesLucas07"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block text-center py-2 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-all"
-                >
-                  {t("viewCode")}
-                </a>
+                {project.href ? (
+                  <a
+                    href={project.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block text-center py-2 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-all"
+                  >
+                    {t("viewProject")}
+                  </a>
+                ) : (
+                  <span className="block text-center py-2 border-2 border-gray-300 dark:border-gray-700 text-gray-400 dark:text-gray-500 rounded-lg font-semibold cursor-not-allowed">
+                    {t("comingSoon")}
+                  </span>
+                )}
               </div>
             </div>
           ))}
