@@ -7,8 +7,7 @@ export default function About() {
     <section id="about" className="min-h-screen flex items-center py-24 bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-gray-800">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <h2 className="text-4xl font-bold text-primary mb-2">{t("title")}</h2>
-          <h3 className="text-xl text-gray-500 dark:text-gray-400 mb-6">{t("subtitle")}</h3>
+          <h2 className="text-4xl font-bold text-primary mb-6">{t("title")}</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
             {t("description")}
           </p>

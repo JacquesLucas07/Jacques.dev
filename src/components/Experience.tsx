@@ -5,7 +5,9 @@ import { useCallback, useEffect, useRef, useState } from "react";
 
 const items = [
   { key: "edu1", type: "education" as const, date: "2025 - 2028" },
-  { key: "job1", type: "work" as const, date: "Janvier 2026 - Présent" },
+  { key: "job1", type: "work" as const, date: "Janvier 2026" },
+  { key: "edu3", type: "education" as const, date: "12 Avril 2026" },
+  { key: "job2", type: "work" as const, date: "20 Février 2026" },
   { key: "edu2", type: "education" as const, date: "2025" },
 ];
 
