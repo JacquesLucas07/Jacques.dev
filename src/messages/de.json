@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "Über mich",
-    "subtitle": "Leidenschaftlicher Entwickler",
-    "description": "Als leidenschaftlicher Entwickler für Informatik und digitale Technologien interessiere ich mich sowohl für die Programmierung als auch für das Verständnis der zugrunde liegenden Systeme. Neugierig und gewissenhaft entwerfe ich gerne konkrete Projekte, lerne neue Technologien und optimiere meine Lösungen. Mein Ziel ist es, mich technisch weiterzuentwickeln und gleichzeitig eine solide und durchdachte Vision der Softwareentwicklung zu entwickeln."
+    "subtitle": "",
+    "description": "In die Welt der Technik hineingeboren, habe ich dort meinen Platz gefunden. Was mir heute am wichtigsten ist, ist die Anerkennung meiner Arbeit und meiner Bemühungen. Ich liebe Innovation und begeistere mich leicht für Neues. Ich praktiziere insbesondere Bodybuilding, eine Disziplin, die mir Disziplin und Methodik beigebracht hat, sowohl in der Praxis als auch in der Theorie und Planung. Heute möchte ich mich tiefer für die Welt der Finanzen interessieren."
   },
   "skills": {
     "title": "Meine Fähigkeiten",
@@ -23,6 +23,11 @@
       "company": "Selbstständig",
       "description": "Gründung meines Softwareentwicklungs-Kleinunternehmens. Entwicklung von Websites, Anwendungen und maßgeschneiderten Lösungen für Kunden."
     },
+    "job2": {
+      "title": "Schatzmeister des BDE Binharry",
+      "company": "Binharry-Verein (binharry.com)",
+      "description": "Zum Schatzmeister des Binharry-Studentenrats gewählt. Budgetverwaltung, Ausgabenverfolgung und finanzielle Organisation der Veranstaltungen des Vereins."
+    },
     "edu1": {
       "title": "Bachelor in Informatik",
       "school": "URCA - Universität Reims Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Abitur mit Auszeichnung",
       "school": "Schwerpunkte: Informatik & Mathematik",
       "description": "Abitur mit Auszeichnung erhalten. Schwerpunkte in Informatik (NSI) und Mathematik."
+    },
+    "edu3": {
+      "title": "SNEE-Registrierung",
+      "school": "Nationaler Status Student-Unternehmer",
+      "description": "Erhalt des nationalen Status als Student-Unternehmer, der es ermöglicht, ein unternehmerisches Projekt parallel zum Studium mit dedizierter Begleitung zu entwickeln."
     }
   },
   "projects": {

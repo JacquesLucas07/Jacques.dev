@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "Sobre mí",
-    "subtitle": "Desarrollador apasionado",
-    "description": "Desarrollador apasionado por la informática y las tecnologías digitales, me intereso tanto por la programación como por la comprensión de los sistemas que la sustentan. Curioso y riguroso, me gusta diseñar proyectos concretos, aprender nuevas tecnologías y optimizar mis soluciones. Mi objetivo es seguir progresando técnicamente mientras desarrollo una visión sólida y reflexiva del desarrollo de software."
+    "subtitle": "",
+    "description": "Nacido en el mundo de la tecnología, encontré allí mi lugar. Lo que más me importa hoy en día es el reconocimiento de mi trabajo y mis esfuerzos. Me encanta la innovación y me apasiono fácilmente por las novedades. Practico en particular el culturismo, una disciplina que me ha enseñado el rigor y el método, tanto en la práctica como en la teoría y la planificación. Hoy busco interesarme más profundamente en el mundo de las finanzas."
   },
   "skills": {
     "title": "Mis habilidades",
@@ -23,6 +23,11 @@
       "company": "Microempresa",
       "description": "Creación de mi microempresa de desarrollo informático. Desarrollo de sitios web, aplicaciones y soluciones personalizadas para clientes."
     },
+    "job2": {
+      "title": "Tesorero del BDE Binharry",
+      "company": "Asociación Binharry (binharry.com)",
+      "description": "Elegido tesorero del Consejo de Estudiantes Binharry. Gestión del presupuesto, seguimiento de gastos y organización financiera de los eventos de la asociación."
+    },
     "edu1": {
       "title": "Grado en Informática",
       "school": "URCA - Universidad de Reims Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Bachillerato con mención",
       "school": "Especialidades: Informática y Matemáticas",
       "description": "Obtención del bachillerato con mención. Especialidades en Ciencias Digitales e Informáticas (NSI) y Matemáticas."
+    },
+    "edu3": {
+      "title": "Inscripción al SNEE",
+      "school": "Estatuto Nacional de Estudiante-Emprendedor",
+      "description": "Obtención del estatuto nacional de estudiante-emprendedor, que permite desarrollar un proyecto emprendedor en paralelo a los estudios con un acompañamiento dedicado."
     }
   },
   "projects": {

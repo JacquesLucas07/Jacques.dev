@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "Hakkımda",
-    "subtitle": "Tutkulu geliştirici",
-    "description": "Bilişim ve dijital teknolojilere tutkuyla bağlı bir geliştirici olarak, hem programlama hem de onu destekleyen sistemleri anlama konusunda ilgiliyim. Meraklı ve titiz, somut projeler tasarlamayı, yeni teknolojiler öğrenmeyi ve çözümlerimi optimize etmeyi seviyorum. Hedefim, yazılım geliştirme konusunda sağlam ve düşünceli bir vizyon geliştirirken teknik olarak ilerlemeye devam etmek."
+    "subtitle": "",
+    "description": "Teknoloji dünyasında doğmuş olarak, orada yerimi buldum. Bugün benim için en önemli olan şey, çalışmamın ve çabalarımın takdir edilmesidir. İnovasyonu seviyorum ve yeni şeylere kolayca tutkuyla bağlanıyorum. Özellikle vücut geliştirme yapıyorum; bu, hem pratikte hem de teori ve planlamada bana titizlik ve metodu öğreten bir disiplin. Bugün finans dünyasıyla daha derinden ilgilenmeye çalışıyorum."
   },
   "skills": {
     "title": "Yeteneklerim",
@@ -23,6 +23,11 @@
       "company": "Mikro işletme",
       "description": "Bilişim geliştirme mikro işletmemin kurulması. Müşteriler için web siteleri, uygulamalar ve özel çözümler geliştirme."
     },
+    "job2": {
+      "title": "BDE Binharry Saymanı",
+      "company": "Binharry Derneği (binharry.com)",
+      "description": "Binharry Öğrenci Konseyi saymanı olarak seçildim. Bütçe yönetimi, harcamaların takibi ve derneğin etkinliklerinin finansal organizasyonu."
+    },
     "edu1": {
       "title": "Bilgisayar Bilimi Lisans",
       "school": "URCA - Reims Üniversitesi Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Onur derecesiyle lise diploması",
       "school": "Uzmanlıklar: Bilgisayar Bilimi ve Matematik",
       "description": "Onur derecesiyle lise diploması alınması. Dijital ve Bilgisayar Bilimleri (NSI) ve Matematik uzmanlıkları."
+    },
+    "edu3": {
+      "title": "SNEE Kaydı",
+      "school": "Ulusal Öğrenci-Girişimci Statüsü",
+      "description": "Ulusal öğrenci-girişimci statüsünün elde edilmesi, bu sayede özel bir destekle eğitime paralel olarak bir girişimcilik projesi geliştirmek mümkün olmaktadır."
     }
   },
   "projects": {

@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "Chi sono",
-    "subtitle": "Sviluppatore appassionato",
-    "description": "Sviluppatore appassionato di informatica e tecnologie digitali, mi interesso tanto alla programmazione quanto alla comprensione dei sistemi che la supportano. Curioso e rigoroso, mi piace progettare progetti concreti, imparare nuove tecnologie e ottimizzare le mie soluzioni. Il mio obiettivo è continuare a progredire tecnicamente sviluppando una visione solida e riflessiva dello sviluppo software."
+    "subtitle": "",
+    "description": "Nato nel mondo della tecnologia, vi ho trovato il mio posto. Ciò che conta di più per me oggi è il riconoscimento del mio lavoro e dei miei sforzi. Adoro l'innovazione e mi appassiono facilmente alle novità. Pratico in particolare il culturismo, una disciplina che mi ha insegnato il rigore e il metodo, sia nella pratica che nella teoria e nella pianificazione. Oggi cerco di interessarmi più profondamente al mondo della finanza."
   },
   "skills": {
     "title": "Le mie competenze",
@@ -23,6 +23,11 @@
       "company": "Microimpresa",
       "description": "Creazione della mia microimpresa di sviluppo informatico. Sviluppo di siti web, applicazioni e soluzioni personalizzate per i clienti."
     },
+    "job2": {
+      "title": "Tesoriere del BDE Binharry",
+      "company": "Associazione Binharry (binharry.com)",
+      "description": "Eletto tesoriere del Consiglio Studentesco Binharry. Gestione del budget, monitoraggio delle spese e organizzazione finanziaria degli eventi dell'associazione."
+    },
     "edu1": {
       "title": "Laurea in Informatica",
       "school": "URCA - Università di Reims Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Diploma di maturità con lode",
       "school": "Specializzazioni: Informatica e Matematica",
       "description": "Ottenimento del diploma di maturità con lode. Specializzazioni in Scienze Digitali e Informatiche (NSI) e Matematica."
+    },
+    "edu3": {
+      "title": "Iscrizione al SNEE",
+      "school": "Statuto Nazionale Studente-Imprenditore",
+      "description": "Ottenimento dello statuto nazionale di studente-imprenditore, che permette di sviluppare un progetto imprenditoriale parallelamente agli studi con un accompagnamento dedicato."
     }
   },
   "projects": {

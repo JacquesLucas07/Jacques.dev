@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "Over mij",
-    "subtitle": "Gepassioneerde ontwikkelaar",
-    "description": "Als ontwikkelaar gepassioneerd door informatica en digitale technologieën, interesseer ik me zowel voor programmeren als voor het begrijpen van de systemen die het ondersteunen. Nieuwsgierig en rigoureus, hou ik ervan om concrete projecten te ontwerpen, nieuwe technologieën te leren en mijn oplossingen te optimaliseren. Mijn doel is om technisch te blijven groeien terwijl ik een solide en doordachte visie op softwareontwikkeling ontwikkel."
+    "subtitle": "",
+    "description": "Geboren in de wereld van tech, vond ik daar mijn plek. Wat voor mij vandaag het belangrijkst is, is de erkenning van mijn werk en mijn inspanningen. Ik hou van innovatie en raak gemakkelijk gepassioneerd door nieuwe dingen. Ik beoefen met name bodybuilding, een discipline die mij rigeur en methode heeft geleerd, zowel in de praktijk als in de theorie en planning. Vandaag wil ik me dieper interesseren voor de wereld van financiën."
   },
   "skills": {
     "title": "Mijn vaardigheden",
@@ -23,6 +23,11 @@
       "company": "Micro-onderneming",
       "description": "Oprichting van mijn micro-onderneming voor informaticaontwikkeling. Ontwikkeling van websites, applicaties en op maat gemaakte oplossingen voor klanten."
     },
+    "job2": {
+      "title": "Penningmeester van BDE Binharry",
+      "company": "Vereniging Binharry (binharry.com)",
+      "description": "Verkozen tot penningmeester van de Binharry Studentenraad. Budgetbeheer, opvolging van uitgaven en financiële organisatie van de evenementen van de vereniging."
+    },
     "edu1": {
       "title": "Bachelor Informatica",
       "school": "URCA - Universiteit van Reims Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Middelbare schooldiploma met onderscheiding",
       "school": "Specialisaties: Informatica en Wiskunde",
       "description": "Behalen van het middelbare schooldiploma met onderscheiding. Specialisaties in Digitale en Informaticawetenschappen (NSI) en Wiskunde."
+    },
+    "edu3": {
+      "title": "Inschrijving bij SNEE",
+      "school": "Nationaal Student-Ondernemer Statuut",
+      "description": "Verkrijging van het nationaal student-ondernemer statuut, waardoor het mogelijk is om naast de studie een ondernemend project te ontwikkelen met speciale begeleiding."
     }
   },
   "projects": {

@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "Om mig",
-    "subtitle": "Passionerad utvecklare",
-    "description": "Som utvecklare med passion för IT och digital teknik intresserar jag mig lika mycket för programmering som för förståelsen av de system som stöder den. Nyfiken och noggrann, jag tycker om att designa konkreta projekt, lära mig ny teknik och optimera mina lösningar. Mitt mål är att fortsätta utvecklas tekniskt samtidigt som jag utvecklar en solid och genomtänkt vision för mjukvaruutveckling."
+    "subtitle": "",
+    "description": "Född in i teknikens värld, hittade jag min plats där. Det viktigaste för mig idag är erkännandet av mitt arbete och mina ansträngningar. Jag älskar innovation och blir lätt passionerad för nyheter. Jag utövar särskilt kroppsbyggande, en disciplin som har lärt mig stränghet och metod, både i praktiken och i teorin och planeringen. Idag söker jag att intressera mig djupare för finansvärlden."
   },
   "skills": {
     "title": "Mina färdigheter",
@@ -23,6 +23,11 @@
       "company": "Mikroföretag",
       "description": "Skapande av mitt mikroföretag för IT-utveckling. Utveckling av webbplatser, applikationer och skräddarsydda lösningar för kunder."
     },
+    "job2": {
+      "title": "Kassör för BDE Binharry",
+      "company": "Binharry-föreningen (binharry.com)",
+      "description": "Vald till kassör för Binharry Studentkår. Budgethantering, uppföljning av utgifter och finansiell organisation av föreningens evenemang."
+    },
     "edu1": {
       "title": "Kandidatexamen i datavetenskap",
       "school": "URCA - Universitetet i Reims Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Studentexamen med utmärkelse",
       "school": "Specialiseringar: Datavetenskap och Matematik",
       "description": "Erhållande av studentexamen med utmärkelse. Specialiseringar i Digital- och datavetenskaper (NSI) och Matematik."
+    },
+    "edu3": {
+      "title": "SNEE-registrering",
+      "school": "Nationell Student-Entreprenör Status",
+      "description": "Erhållande av den nationella student-entreprenör statusen, som möjliggör utveckling av ett entreprenörsprojekt parallellt med studierna med dedikerat stöd."
     }
   },
   "projects": {

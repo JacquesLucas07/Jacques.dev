@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "Về tôi",
-    "subtitle": "Lập trình viên đam mê",
-    "description": "Là một lập trình viên đam mê công nghệ thông tin và kỹ thuật số, tôi quan tâm đến cả lập trình và hiểu các hệ thống hỗ trợ nó. Tò mò và cẩn thận, tôi thích thiết kế các dự án cụ thể, học công nghệ mới và tối ưu hóa giải pháp của mình. Mục tiêu của tôi là tiếp tục tiến bộ về mặt kỹ thuật trong khi phát triển tầm nhìn vững chắc và chu đáo về phát triển phần mềm."
+    "subtitle": "",
+    "description": "Sinh ra trong thế giới công nghệ, tôi đã tìm thấy vị trí của mình ở đó. Điều quan trọng nhất với tôi hôm nay là sự công nhận đối với công việc và những nỗ lực của tôi. Tôi yêu thích sự đổi mới và dễ dàng đam mê những điều mới mẻ. Tôi đặc biệt tập thể hình, một bộ môn đã dạy tôi sự nghiêm khắc và phương pháp, cả trong thực hành lẫn lý thuyết và lập kế hoạch. Hôm nay tôi mong muốn tìm hiểu sâu hơn về thế giới tài chính."
   },
   "skills": {
     "title": "Kỹ năng của tôi",
@@ -23,6 +23,11 @@
       "company": "Doanh nghiệp siêu nhỏ",
       "description": "Thành lập doanh nghiệp siêu nhỏ phát triển CNTT của tôi. Phát triển trang web, ứng dụng và giải pháp tùy chỉnh cho khách hàng."
     },
+    "job2": {
+      "title": "Thủ quỹ BDE Binharry",
+      "company": "Hiệp hội Binharry (binharry.com)",
+      "description": "Được bầu làm thủ quỹ Hội Sinh viên Binharry. Quản lý ngân sách, theo dõi chi phí và tổ chức tài chính cho các sự kiện của hiệp hội."
+    },
     "edu1": {
       "title": "Cử nhân Khoa học Máy tính",
       "school": "URCA - Đại học Reims Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Bằng tốt nghiệp trung học phổ thông loại giỏi",
       "school": "Chuyên ngành: Khoa học Máy tính và Toán học",
       "description": "Đạt bằng tốt nghiệp trung học phổ thông loại giỏi. Chuyên ngành Khoa học Kỹ thuật số và Máy tính (NSI) và Toán học."
+    },
+    "edu3": {
+      "title": "Đăng ký SNEE",
+      "school": "Trạng thái Sinh viên-Doanh nhân Quốc gia",
+      "description": "Đạt được trạng thái sinh viên-doanh nhân quốc gia, cho phép phát triển một dự án khởi nghiệp song song với việc học cùng với sự hỗ trợ chuyên biệt."
     }
   },
   "projects": {

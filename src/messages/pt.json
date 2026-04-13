@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "Sobre mim",
-    "subtitle": "Desenvolvedor apaixonado",
-    "description": "Desenvolvedor apaixonado por informática e tecnologias digitais, interesso-me tanto pela programação quanto pela compreensão dos sistemas que a sustentam. Curioso e rigoroso, gosto de conceber projetos concretos, aprender novas tecnologias e otimizar minhas soluções. Meu objetivo é continuar progredindo tecnicamente enquanto desenvolvo uma visão sólida e refletida do desenvolvimento de software."
+    "subtitle": "",
+    "description": "Nascido no mundo da tecnologia, encontrei ali o meu lugar. O que mais importa para mim hoje é o reconhecimento do meu trabalho e dos meus esforços. Adoro a inovação e me apaixono facilmente pelas novidades. Pratico em particular o culturismo, uma disciplina que me ensinou o rigor e o método, tanto na prática quanto na teoria e no planejamento. Hoje busco me interessar mais profundamente pelo mundo das finanças."
   },
   "skills": {
     "title": "Minhas habilidades",
@@ -23,6 +23,11 @@
       "company": "Microempresa",
       "description": "Criação da minha microempresa de desenvolvimento informático. Desenvolvimento de sites, aplicativos e soluções personalizadas para clientes."
     },
+    "job2": {
+      "title": "Tesoureiro do BDE Binharry",
+      "company": "Associação Binharry (binharry.com)",
+      "description": "Eleito tesoureiro do Conselho de Estudantes Binharry. Gestão do orçamento, acompanhamento das despesas e organização financeira dos eventos da associação."
+    },
     "edu1": {
       "title": "Bacharelado em Informática",
       "school": "URCA - Universidade de Reims Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Ensino médio com menção",
       "school": "Especialidades: Informática e Matemática",
       "description": "Obtenção do ensino médio com menção. Especialidades em Ciências Digitais e Informáticas (NSI) e Matemática."
+    },
+    "edu3": {
+      "title": "Inscrição no SNEE",
+      "school": "Estatuto Nacional Estudante-Empreendedor",
+      "description": "Obtenção do estatuto nacional de estudante-empreendedor, permitindo desenvolver um projeto empreendedor em paralelo aos estudos com um acompanhamento dedicado."
     }
   },
   "projects": {

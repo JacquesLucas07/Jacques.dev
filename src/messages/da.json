@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "Om mig",
-    "subtitle": "Passioneret udvikler",
-    "description": "Som udvikler med passion for IT og digital teknologi interesserer jeg mig lige så meget for programmering som for forståelsen af de systemer, der understøtter den. Nysgerrig og grundig, jeg kan lide at designe konkrete projekter, lære ny teknologi og optimere mine løsninger. Mit mål er at fortsætte med at udvikle mig teknisk, mens jeg udvikler en solid og gennemtænkt vision for softwareudvikling."
+    "subtitle": "",
+    "description": "Født ind i tech-verdenen, fandt jeg min plads der. Det, der betyder mest for mig i dag, er anerkendelsen af mit arbejde og min indsats. Jeg elsker innovation og bliver let passioneret omkring nye ting. Jeg dyrker især bodybuilding, en disciplin der har lært mig grundighed og metode, både i praksis og i teori og planlægning. I dag søger jeg at interessere mig dybere for finansverdenen."
   },
   "skills": {
     "title": "Mine færdigheder",
@@ -23,6 +23,11 @@
       "company": "Mikrovirksomhed",
       "description": "Oprettelse af min mikrovirksomhed for IT-udvikling. Udvikling af hjemmesider, applikationer og skræddersyede løsninger til kunder."
     },
+    "job2": {
+      "title": "Kasserer for BDE Binharry",
+      "company": "Binharry-foreningen (binharry.com)",
+      "description": "Valgt som kasserer for Binharry Studenterrådet. Budgetstyring, opfølgning på udgifter og finansiel organisering af foreningens arrangementer."
+    },
     "edu1": {
       "title": "Bachelor i datalogi",
       "school": "URCA - Universitetet i Reims Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Studentereksamen med udmærkelse",
       "school": "Specialiseringer: Datalogi og Matematik",
       "description": "Opnåelse af studentereksamen med udmærkelse. Specialiseringer i Digital- og datavidenskab (NSI) og Matematik."
+    },
+    "edu3": {
+      "title": "SNEE-registrering",
+      "school": "National Student-Iværksætter Status",
+      "description": "Opnåelse af den nationale student-iværksætter status, der giver mulighed for at udvikle et iværksætterprojekt sideløbende med studierne med dedikeret støtte."
     }
   },
   "projects": {

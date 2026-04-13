@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "Om meg",
-    "subtitle": "Lidenskapelig utvikler",
-    "description": "Som utvikler med lidenskap for IT og digital teknologi, interesserer jeg meg like mye for programmering som for forståelsen av systemene som støtter den. Nysgjerrig og grundig, liker jeg å designe konkrete prosjekter, lære ny teknologi og optimalisere løsningene mine. Målet mitt er å fortsette å utvikle meg teknisk samtidig som jeg utvikler en solid og gjennomtenkt visjon for programvareutvikling."
+    "subtitle": "",
+    "description": "Født inn i tech-verdenen, fant jeg min plass der. Det som betyr mest for meg i dag, er anerkjennelsen av arbeidet og innsatsen min. Jeg elsker innovasjon og blir lett lidenskapelig for nye ting. Jeg driver spesielt med kroppsbygging, en disiplin som har lært meg grundighet og metode, både i praksis og i teori og planlegging. I dag søker jeg å interessere meg dypere for finansverdenen."
   },
   "skills": {
     "title": "Mine ferdigheter",
@@ -23,6 +23,11 @@
       "company": "Mikroforetak",
       "description": "Opprettelse av mitt mikroforetak for IT-utvikling. Utvikling av nettsider, applikasjoner og skreddersydde løsninger for kunder."
     },
+    "job2": {
+      "title": "Kasserer for BDE Binharry",
+      "company": "Binharry-foreningen (binharry.com)",
+      "description": "Valgt til kasserer for Binharry Studentråd. Budsjettstyring, oppfølging av utgifter og finansiell organisering av foreningens arrangementer."
+    },
     "edu1": {
       "title": "Bachelor i informatikk",
       "school": "URCA - Universitetet i Reims Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Videregående med utmerkelse",
       "school": "Spesialiseringer: Informatikk og Matematikk",
       "description": "Oppnåelse av videregående med utmerkelse. Spesialiseringer i Digital- og datavitenskap (NSI) og Matematikk."
+    },
+    "edu3": {
+      "title": "SNEE-registrering",
+      "school": "Nasjonal Student-Entreprenør Status",
+      "description": "Oppnåelse av den nasjonale student-entreprenør statusen, som gjør det mulig å utvikle et entreprenørprosjekt parallelt med studiene med dedikert støtte."
     }
   },
   "projects": {

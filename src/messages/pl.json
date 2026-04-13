@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "O mnie",
-    "subtitle": "Pasjonat programowania",
-    "description": "Jako programista pasjonujący się informatyką i technologiami cyfrowymi, interesuję się zarówno programowaniem, jak i zrozumieniem systemów, które je wspierają. Ciekawski i skrupulatny, lubię projektować konkretne projekty, uczyć się nowych technologii i optymalizować swoje rozwiązania. Moim celem jest dalszy rozwój techniczny przy jednoczesnym rozwijaniu solidnej i przemyślanej wizji tworzenia oprogramowania."
+    "subtitle": "",
+    "description": "Urodzony w świecie technologii, znalazłem w nim swoje miejsce. Najważniejsze dla mnie dzisiaj jest uznanie mojej pracy i moich wysiłków. Uwielbiam innowacje i łatwo zapalam się do nowości. Praktykuję w szczególności kulturystykę, dyscyplinę, która nauczyła mnie rygoru i metodyczności, zarówno w praktyce, jak i w teorii i planowaniu. Dziś staram się głębiej zainteresować światem finansów."
   },
   "skills": {
     "title": "Moje umiejętności",
@@ -23,6 +23,11 @@
       "company": "Mikroprzedsiębiorstwo",
       "description": "Założenie mojego mikroprzedsiębiorstwa zajmującego się rozwojem informatyki. Tworzenie stron internetowych, aplikacji i rozwiązań na zamówienie dla klientów."
     },
+    "job2": {
+      "title": "Skarbnik BDE Binharry",
+      "company": "Stowarzyszenie Binharry (binharry.com)",
+      "description": "Wybrany na skarbnika Rady Studenckiej Binharry. Zarządzanie budżetem, śledzenie wydatków i organizacja finansowa wydarzeń stowarzyszenia."
+    },
     "edu1": {
       "title": "Licencjat z informatyki",
       "school": "URCA - Uniwersytet w Reims Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Matura z wyróżnieniem",
       "school": "Specjalizacje: Informatyka i Matematyka",
       "description": "Uzyskanie matury z wyróżnieniem. Specjalizacje w Naukach Cyfrowych i Informatycznych (NSI) oraz Matematyce."
+    },
+    "edu3": {
+      "title": "Rejestracja w SNEE",
+      "school": "Krajowy Status Studenta-Przedsiębiorcy",
+      "description": "Uzyskanie krajowego statusu studenta-przedsiębiorcy, umożliwiającego rozwój projektu przedsiębiorczego równolegle ze studiami z dedykowanym wsparciem."
     }
   },
   "projects": {

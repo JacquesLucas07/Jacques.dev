@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "O mně",
-    "subtitle": "Vášnivý vývojář",
-    "description": "Jako vývojář s vášní pro IT a digitální technologie se zajímám jak o programování, tak o pochopení systémů, které jej podporují. Zvídavý a pečlivý, rád navrhuji konkrétní projekty, učím se nové technologie a optimalizuji svá řešení. Mým cílem je pokračovat v technickém rozvoji a zároveň rozvíjet solidní a promyšlenou vizi vývoje softwaru."
+    "subtitle": "",
+    "description": "Narozen ve světě technologií, našel jsem v něm své místo. Co je pro mě dnes nejdůležitější, je uznání mé práce a mého úsilí. Miluji inovace a snadno se nadchnu pro nové věci. Věnuji se zejména kulturistice, disciplíně, která mě naučila přesnosti a metodičnosti, a to jak v praxi, tak v teorii a plánování. Dnes se snažím hlouběji zajímat o svět financí."
   },
   "skills": {
     "title": "Moje dovednosti",
@@ -23,6 +23,11 @@
       "company": "Mikropodnik",
       "description": "Založení mého mikropodniku pro vývoj IT. Vývoj webových stránek, aplikací a řešení na míru pro klienty."
     },
+    "job2": {
+      "title": "Pokladník BDE Binharry",
+      "company": "Sdružení Binharry (binharry.com)",
+      "description": "Zvolen pokladníkem Studentské rady Binharry. Správa rozpočtu, sledování výdajů a finanční organizace akcí sdružení."
+    },
     "edu1": {
       "title": "Bakalář informatiky",
       "school": "URCA - Univerzita v Remeši Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Maturita s vyznamenáním",
       "school": "Specializace: Informatika a Matematika",
       "description": "Získání maturity s vyznamenáním. Specializace v digitálních a informatických vědách (NSI) a matematice."
+    },
+    "edu3": {
+      "title": "Registrace SNEE",
+      "school": "Národní status studenta-podnikatele",
+      "description": "Získání národního statusu studenta-podnikatele, který umožňuje rozvíjet podnikatelský projekt souběžně se studiem s vyhrazenou podporou."
     }
   },
   "projects": {

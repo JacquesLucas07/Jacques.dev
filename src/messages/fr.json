@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "À propos de moi",
-    "subtitle": "Développeur passionné",
-    "description": "Développeur passionné par l'informatique et les technologies numériques, je m'intéresse autant à la programmation qu'à la compréhension des systèmes qui la sous-tendent. Curieux et rigoureux, j'aime concevoir des projets concrets, apprendre de nouvelles technologies et optimiser mes solutions. Mon objectif est de continuer à progresser techniquement tout en développant une vision solide et réfléchie du développement logiciel."
+    "subtitle": "",
+    "description": "Né dans le monde de la tech, j'y ai trouvé ma place. Ce qui compte le plus pour moi aujourd'hui, c'est la reconnaissance de mon travail et de mes efforts. J'adore l'innovation et je me passionne facilement pour la nouveauté. Je pratique notamment le culturisme, une discipline qui m'a appris la rigueur et la méthode, aussi bien dans la pratique que dans la théorie et la planification. Je cherche aujourd'hui à m'intéresser plus profondément au monde de la finance."
   },
   "skills": {
     "title": "Mes Compétences",
@@ -23,6 +23,11 @@
       "company": "Micro-entreprise",
       "description": "Création de ma micro-entreprise de développement informatique. Développement de sites web, applications et solutions sur mesure pour les clients."
     },
+    "job2": {
+      "title": "Trésorier du BDE Binharry",
+      "company": "Association Binharry (binharry.com)",
+      "description": "Élu trésorier du Bureau Des Étudiants Binharry. Gestion du budget, suivi des dépenses et organisation financière des événements de l'association."
+    },
     "edu1": {
       "title": "BUT Informatique",
       "school": "URCA - Université de Reims Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Baccalauréat Général avec Mention",
       "school": "Spécialités NSI et Mathématiques",
       "description": "Obtention du baccalauréat général avec mention. Spécialités Numérique et Sciences Informatiques (NSI) et Mathématiques."
+    },
+    "edu3": {
+      "title": "Inscription au SNEE",
+      "school": "Statut National Étudiant-Entrepreneur",
+      "description": "Obtention du statut national d'étudiant-entrepreneur, permettant de développer un projet entrepreneurial en parallèle des études avec un accompagnement dédié."
     }
   },
   "projects": {

@@ -8,8 +8,8 @@
   },
   "about": {
     "title": "Rólam",
-    "subtitle": "Szenvedélyes fejlesztő",
-    "description": "Informatika és digitális technológiák iránt szenvedélyes fejlesztőként egyaránt érdeklődöm a programozás és az azt támogató rendszerek megértése iránt. Kíváncsi és alapos vagyok, szeretek konkrét projekteket tervezni, új technológiákat tanulni és optimalizálni megoldásaimat. Célom a technikai fejlődés folytatása, miközben szilárd és átgondolt víziót fejlesztek a szoftverfejlesztésről."
+    "subtitle": "",
+    "description": "A technológia világába születve, ott találtam meg a helyem. Ma az számít a legjobban, hogy elismerjék a munkámat és az erőfeszítéseimet. Imádom az innovációt és könnyen lelkesedem az újdonságokért. Különösen testépítést gyakorolok, egy olyan diszciplínát, amely megtanított a szigorra és a módszerességre, mind a gyakorlatban, mind az elméletben és a tervezésben. Ma mélyebben szeretnék érdeklődni a pénzügyek világa iránt."
   },
   "skills": {
     "title": "Készségeim",
@@ -23,6 +23,11 @@
       "company": "Mikrovállalkozás",
       "description": "IT-fejlesztési mikrovállalkozásom létrehozása. Weboldalak, alkalmazások és testreszabott megoldások fejlesztése ügyfelek számára."
     },
+    "job2": {
+      "title": "A BDE Binharry pénztárosa",
+      "company": "Binharry Egyesület (binharry.com)",
+      "description": "A Binharry Hallgatói Tanács pénztárosává választottak. Költségvetés-kezelés, kiadások nyomon követése és az egyesület eseményeinek pénzügyi szervezése."
+    },
     "edu1": {
       "title": "Informatikai alapképzés",
       "school": "URCA - Reims-i Egyetem Champagne-Ardenne",
@@ -32,6 +37,11 @@
       "title": "Érettségi kitüntetéssel",
       "school": "Szakirányok: Informatika és Matematika",
       "description": "Érettségi megszerzése kitüntetéssel. Szakirányok: Digitális és informatikai tudományok (NSI) és Matematika."
+    },
+    "edu3": {
+      "title": "SNEE regisztráció",
+      "school": "Nemzeti Hallgató-Vállalkozó Státusz",
+      "description": "A nemzeti hallgató-vállalkozó státusz megszerzése, amely lehetővé teszi vállalkozói projekt fejlesztését a tanulmányokkal párhuzamosan, dedikált támogatással."
     }
   },
   "projects": {
