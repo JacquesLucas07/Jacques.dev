@@ -47,13 +47,13 @@ export default function Projects() {
               key={project.key}
               className="bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-md hover:-translate-y-2 hover:shadow-lg transition-all flex flex-col"
             >
-              <div className="relative h-48 w-full bg-gray-100 dark:bg-gray-800">
+              <div className="relative h-48 w-full bg-gray-100 dark:bg-gray-800 overflow-hidden flex items-center justify-center p-6">
                 <Image
                   src={project.image}
                   alt={t(`${project.key}.title`)}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  className="object-cover"
+                  className="object-contain p-4"
                 />
               </div>
               <div className="p-6 flex flex-col flex-1">
