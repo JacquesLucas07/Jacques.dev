@@ -2,20 +2,20 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 const currentSkills = [
-  { name: "JavaScript", logo: "/logos/javascript.svg", level: 90 },
-  { name: "Python", logo: "/logos/python.svg", level: 85 },
-  { name: "Rust", logo: "/logos/rust.svg", level: 80 },
-  { name: "React", logo: "/logos/react.svg", level: 75 },
-  { name: "CSS3", logo: "/logos/css3.svg", level: 70 },
-  { name: "Git", logo: "/logos/git.svg", level: 85 },
+  { name: "JavaScript", logo: "/asset/logos/javascript.svg", level: 90 },
+  { name: "Python", logo: "/asset/logos/python.svg", level: 85 },
+  { name: "Rust", logo: "/asset/logos/rust.svg", level: 80 },
+  { name: "React", logo: "/asset/logos/react.svg", level: 75 },
+  { name: "CSS3", logo: "/asset/logos/css3.svg", level: 70 },
+  { name: "Git", logo: "/asset/logos/git.svg", level: 85 },
 ];
 
 const learningStack = [
-  { name: "Vue.js", logo: "/logos/vuejs.svg" },
-  { name: "C++", logo: "/logos/cpp.png" },
-  { name: "Java", logo: "/logos/java.svg" },
-  { name: "Docker", logo: "/logos/docker.svg" },
-  { name: "TypeScript", logo: "/logos/typescript.svg" },
+  { name: "Vue.js", logo: "/asset/logos/vuejs.svg" },
+  { name: "C++", logo: "/asset/logos/cpp.png" },
+  { name: "Java", logo: "/asset/logos/java.svg" },
+  { name: "Docker", logo: "/asset/logos/docker.svg" },
+  { name: "TypeScript", logo: "/asset/logos/typescript.svg" },
 ];
 
 export default function Skills() {
