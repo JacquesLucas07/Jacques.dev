@@ -22,7 +22,7 @@ const items: Item[] = [
     url: "https://binharry.com",
   },
   { key: "job1", type: "work", date: "Janvier 2026", year: "Janvier 2026" },
-  { key: "edu1", type: "education", date: "2025 - 2028", year: "2025 - 2028" },
+  { key: "edu1", type: "education", date: "Septembre 2025", year: "2025" },
   { key: "edu2", type: "education", date: "2025", year: "2025" },
 ];
 
@@ -146,15 +146,18 @@ export default function Experience() {
           {/* Ligne horizontale décorative */}
           <div className="absolute left-0 right-0 top-6 h-0.5 bg-gradient-to-r from-primary to-secondary opacity-30 pointer-events-none" />
 
-          {/* Badge année sur la barre horizontale, suit la carte active */}
+          {/* Badge année au-dessus de la barre, suit la carte active */}
           {indicatorLeft !== null && (
             <div
-              className="absolute top-6 -translate-x-1/2 -translate-y-1/2 pointer-events-none transition-[left] duration-300 ease-out"
-              style={{ left: `${indicatorLeft}px` }}
+              className="absolute top-6 -translate-x-1/2 pointer-events-none transition-[left] duration-300 ease-out flex flex-col items-center"
+              style={{ left: `${indicatorLeft}px`, transform: `translate(-50%, calc(-100% - 10px))` }}
             >
-              <span className="inline-block px-3 py-1 rounded-full bg-primary text-white text-xs font-semibold shadow-lg whitespace-nowrap">
+              <span className="inline-block px-4 py-1.5 rounded-full bg-linear-to-r from-primary to-secondary text-white text-sm font-bold shadow-lg shadow-primary/40 ring-2 ring-white dark:ring-gray-900 whitespace-nowrap">
                 {activeYear}
               </span>
+              <svg className="-mt-px text-secondary drop-shadow" width="12" height="6" viewBox="0 0 12 6" fill="currentColor">
+                <path d="M0 0h12L6 6z" />
+              </svg>
             </div>
           )}
 
