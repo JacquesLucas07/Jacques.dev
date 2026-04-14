@@ -3,12 +3,27 @@
 import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useRef, useState } from "react";
 
-const items = [
-  { key: "edu1", type: "education" as const, date: "2025 - 2028" },
-  { key: "job1", type: "work" as const, date: "Janvier 2026" },
-  { key: "edu3", type: "education" as const, date: "12 Avril 2026" },
-  { key: "job2", type: "work" as const, date: "20 Février 2026" },
-  { key: "edu2", type: "education" as const, date: "2025" },
+type Item = {
+  key: string;
+  type: "education" | "work";
+  date: string;
+  year: string;
+  url?: string;
+};
+
+// Ordre DOM gauche -> droite (le plus ancien à droite, le plus récent à gauche)
+const items: Item[] = [
+  { key: "edu3", type: "education", date: "12 Avril 2026", year: "Avril 2026" },
+  {
+    key: "job2",
+    type: "work",
+    date: "20 Février 2026",
+    year: "Février 2026",
+    url: "https://binharry.com",
+  },
+  { key: "job1", type: "work", date: "Janvier 2026", year: "Janvier 2026" },
+  { key: "edu1", type: "education", date: "2025 - 2028", year: "2025 - 2028" },
+  { key: "edu2", type: "education", date: "2025", year: "2025" },
 ];
 
 export default function Experience() {
@@ -16,6 +31,8 @@ export default function Experience() {
   const scrollerRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
+  const [activeYear, setActiveYear] = useState(items[0].year);
+  const [indicatorLeft, setIndicatorLeft] = useState<number | null>(null);
 
   const updateScrollState = useCallback(() => {
     const el = scrollerRef.current;
@@ -23,6 +40,27 @@ export default function Experience() {
     const maxScroll = el.scrollWidth - el.clientWidth;
     setCanScrollLeft(el.scrollLeft > 4);
     setCanScrollRight(el.scrollLeft < maxScroll - 4);
+
+    // Détermine la carte la plus centrée dans le viewport
+    const cards = Array.from(el.querySelectorAll<HTMLElement>("[data-card]"));
+    if (cards.length === 0) return;
+    const viewportCenter = el.scrollLeft + el.clientWidth / 2;
+    let closest = cards[0];
+    let closestDist = Infinity;
+    cards.forEach((card) => {
+      const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+      const dist = Math.abs(cardCenter - viewportCenter);
+      if (dist < closestDist) {
+        closestDist = dist;
+        closest = card;
+      }
+    });
+    const idx = Number(closest.dataset.index);
+    if (!Number.isNaN(idx) && items[idx]) {
+      setActiveYear(items[idx].year);
+    }
+    // Position indicateur sur la barre horizontale (relatif au scroller)
+    setIndicatorLeft(closest.offsetLeft + closest.offsetWidth / 2 - el.scrollLeft);
   }, []);
 
   useEffect(() => {
@@ -53,7 +91,7 @@ export default function Experience() {
     el.scrollBy({ left: direction * getCardWidth(), behavior: "smooth" });
   };
 
-  // Drag-to-scroll for desktop (mouse)
+  // Drag-to-scroll pour desktop (souris)
   useEffect(() => {
     const el = scrollerRef.current;
     if (!el) return;
@@ -108,6 +146,18 @@ export default function Experience() {
           {/* Ligne horizontale décorative */}
           <div className="absolute left-0 right-0 top-6 h-0.5 bg-gradient-to-r from-primary to-secondary opacity-30 pointer-events-none" />
 
+          {/* Badge année sur la barre horizontale, suit la carte active */}
+          {indicatorLeft !== null && (
+            <div
+              className="absolute top-6 -translate-x-1/2 -translate-y-1/2 pointer-events-none transition-[left] duration-300 ease-out"
+              style={{ left: `${indicatorLeft}px` }}
+            >
+              <span className="inline-block px-3 py-1 rounded-full bg-primary text-white text-xs font-semibold shadow-lg whitespace-nowrap">
+                {activeYear}
+              </span>
+            </div>
+          )}
+
           {/* Boutons navigation */}
           <button
             type="button"
@@ -138,10 +188,11 @@ export default function Experience() {
             className="flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4 cursor-grab select-none scrollbar-hide"
             style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
           >
-            {items.map((item) => (
+            {items.map((item, index) => (
               <div
                 key={item.key}
                 data-card
+                data-index={index}
                 className="relative shrink-0 snap-center w-[85%] sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] pt-16"
               >
                 {/* Marqueur dot */}
@@ -153,8 +204,8 @@ export default function Experience() {
                   }`}
                 />
 
-                <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:-translate-y-1 hover:shadow-lg transition-all h-full border border-gray-100 dark:border-gray-700">
-                  <span className="inline-block px-4 py-1 bg-primary text-white text-sm rounded-full mb-3">
+                <div className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md hover:-translate-y-1 hover:shadow-lg transition-all h-full border border-gray-100 dark:border-gray-700 flex flex-col">
+                  <span className="inline-block self-start px-4 py-1 bg-primary text-white text-sm rounded-full mb-3">
                     {item.date}
                   </span>
                   <h3 className="text-xl font-bold mb-1">{t(`${item.key}.title`)}</h3>
@@ -164,6 +215,20 @@ export default function Experience() {
                   <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                     {t(`${item.key}.description`)}
                   </p>
+                  {item.url && (
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                      className="mt-4 inline-flex items-center justify-center gap-2 px-4 py-2 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary hover:text-white transition-all"
+                    >
+                      <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                      Site du BDE
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
